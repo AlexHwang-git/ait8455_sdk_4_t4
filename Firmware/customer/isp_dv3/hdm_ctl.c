@@ -61,7 +61,7 @@ void ISP_HDM_IF_CALI_GetData(void)
 		dbg_printf(3, " I2C 0x%x  0x%x\r\n", print_cnt,  *(eeprom_buff+print_cnt));		
 	}
 #else
-	for(print_cnt = ; print_cnt <= 0x1F;print_cnt++)
+	for(print_cnt = 0 ; print_cnt <= 0x1F;print_cnt++)
 	{
 		dbg_printf(3, " I2C 0x%x  0x%x\r\n", print_cnt,  *(eeprom_buff+print_cnt));		
 	}
