@@ -1,0 +1,575 @@
+;#<FEEDBACK># ARM Linker, 4.1 [Build 481]: Last Updated: Wed Dec 15 13:42:16 2010
+;VERSION 0.2
+;FILE 3a_ctl.o
+VR_3A_InitAE <= USED 0
+VR_3A_InitAWB <= USED 0
+VR_AE_GetHWAccAddr <= USED 0
+VR_AE_SetHWAccAddr <= USED 0
+VR_AF_GetAcc <= USED 0
+VR_AF_GetColsByName <= USED 0
+VR_AF_GetHWAccAddr <= USED 0
+VR_AF_GetRowsByName <= USED 0
+VR_AF_GetWins <= USED 0
+VR_AF_SetHWAccAddr <= USED 0
+VR_AF_WaitAccSync <= USED 0
+VR_AWB_GetHWAccAddr <= USED 0
+VR_AWB_GetRowsByName <= USED 0
+;FILE ae.o
+VR_AE_GetCapBaseShutter <= USED 0
+VR_AE_GetCaptureExifISO <= USED 0
+VR_AE_GetCaptureExifShutter <= USED 0
+VR_AE_GetPreviewExifISO <= USED 0
+VR_AE_GetPreviewExifShutter <= USED 0
+VR_AE_GetStatus <= USED 0
+VR_AE_SetFastMode <= USED 0
+VR_AE_SetLowLuxMode <= USED 0
+;FILE af.o
+VR_AF_GetMode <= USED 0
+VR_AF_SetWinType <= USED 0
+;FILE ait_ae.o
+AIT_AE_GetSensorVsyncByFPS <= USED 0
+AIT_AE_IsOutdoor <= USED 0
+AIT_Flicker_CheckAECondition <= USED 0
+AIT_Flicker_GetLightFreq <= USED 0
+;FILE ait_bsp.o
+MMPC_System_WaitUs <= USED 0
+;FILE ait_caf.o
+CAF_CheckSceneChange <= USED 0
+CAF_SpeedUp <= USED 0
+;FILE ait_config.o
+MMPS_AUDIO_GetConfiguration <= USED 0
+MMPS_USB_GetConfiguration <= USED 0
+;FILE ait_vote_af.o
+VoteAF_CalStep <= USED 0
+;FILE all_fw32.o
+;FILE awb.o
+VR_AWB_GetMode <= USED 0
+VR_AWB_SetFastMode <= USED 0
+;FILE awbv3.o
+AIT_AWB_AccLow <= USED 0
+AIT_AWB_Init <= USED 0
+AIT_AWB_Register <= USED 0
+AIT_AWB_Reset <= USED 0
+AIT_AWB_SetOPDWindow <= USED 0
+AIT_AWB_UpdateForFlashLight <= USED 0
+;FILE bsp.o
+;FILE flash_ctl.o
+VR_Flash_Ctl <= USED 0
+VR_Flash_Init <= USED 0
+VR_Flash_SetCameraLevel <= USED 0
+VR_Flash_SetFlashModeOff <= USED 0
+VR_Flash_SetFlashModeOn <= USED 0
+VR_Flash_SetTorchLevel <= USED 0
+VR_Flash_SetTorchModeOff <= USED 0
+VR_Flash_SetTorchModeOn <= USED 0
+;FILE flash_null.o
+FLASH_Null_Register <= USED 0
+;FILE hdm_ctl.o
+ISP_HDM_IF_CheckFrameEnd <= USED 0
+ISP_HDM_IF_CheckFrameStart <= USED 0
+ISP_HDM_IF_CustomizeFlashFunc <= USED 0
+ISP_HDM_IF_GetDftBufAddr <= USED 0
+ISP_HDM_IF_I2C_ReadCurLoc <= USED 0
+ISP_HDM_IF_IsFrameTypePreview <= USED 0
+ISP_HDM_IF_IsGNRClkOff <= USED 0
+VR_HDM_SetHardwareBuffer <= USED 0
+;FILE isp_if.o
+ISP_IF_3A_GetSwitch <= USED 0
+ISP_IF_AE_GetAGainBase <= USED 0
+ISP_IF_AE_GetAccDiv <= USED 0
+ISP_IF_AE_GetCaptureExifEvBiasNum <= USED 0
+ISP_IF_AE_GetCaptureExifEvBiasUnit <= USED 0
+ISP_IF_AE_GetCaptureExifISO <= USED 0
+ISP_IF_AE_GetCaptureExifShutter <= USED 0
+ISP_IF_AE_GetDGainBase <= USED 0
+ISP_IF_AE_GetFastFlag <= USED 0
+ISP_IF_AE_GetMetering <= USED 0
+ISP_IF_AE_GetPreviewExifISO <= USED 0
+ISP_IF_AE_GetPreviewExifShutter <= USED 0
+ISP_IF_AE_GetRealFPSBeforeAF <= USED 0
+ISP_IF_AE_GetStatus <= USED 0
+ISP_IF_AE_GetVer <= USED 0
+ISP_IF_AE_SetCaptureFastMode <= USED 0
+ISP_IF_AE_SetLowLuxMode <= USED 0
+ISP_IF_AE_SetMetering <= USED 0
+ISP_IF_AE_SetPreviewFastMode <= USED 0
+ISP_IF_AE_SetViewAngle <= USED 0
+ISP_IF_AF_GetAccPtr <= USED 0
+ISP_IF_AF_GetCustomDbgInfo <= USED 0
+ISP_IF_AF_GetDbgAccPtr <= USED 0
+ISP_IF_AF_GetDbgDataPtr <= USED 0
+ISP_IF_AF_GetDbgFilterAcc <= USED 0
+ISP_IF_AF_GetDbgWins <= USED 0
+ISP_IF_AF_GetMode <= USED 0
+ISP_IF_AF_GetPos10 <= USED 0
+ISP_IF_AF_GetRunningCnt <= USED 0
+ISP_IF_AF_GetSelFilter <= USED 0
+ISP_IF_AF_GetType <= USED 0
+ISP_IF_AF_GetVer <= USED 0
+ISP_IF_AF_GetWins <= USED 0
+ISP_IF_AF_SetCustom <= USED 0
+ISP_IF_AF_SetCustomWin <= USED 0
+ISP_IF_AF_SetFDWin <= USED 0
+ISP_IF_AF_SetFastMode <= USED 0
+ISP_IF_AF_SetPos10 <= USED 0
+ISP_IF_AF_SetSelFilter <= USED 0
+ISP_IF_AF_SetType <= USED 0
+ISP_IF_AF_SetWin <= USED 0
+ISP_IF_AWB_GetDbgData <= USED 0
+ISP_IF_AWB_GetGainBase <= USED 0
+ISP_IF_AWB_GetMode <= USED 0
+ISP_IF_AWB_SetCaptureFastMode <= USED 0
+ISP_IF_AWB_SetPreviewFastMode <= USED 0
+ISP_IF_CALI_CaliAWB_Get <= USED 0
+ISP_IF_CALI_CaliAWB_Set <= USED 0
+ISP_IF_CALI_GetAWBGainB <= USED 0
+ISP_IF_CALI_GetAWBGainG <= USED 0
+ISP_IF_CALI_GetAWBGainR <= USED 0
+ISP_IF_CALI_GetChecksum <= USED 0
+ISP_IF_CALI_GetCustomInfo <= USED 0
+ISP_IF_CALI_SetAWB <= USED 0
+ISP_IF_CALI_SetCS <= USED 0
+ISP_IF_CALI_SetCSOffest <= USED 0
+ISP_IF_CALI_SetChecksum <= USED 0
+ISP_IF_CALI_SetCustomInfo <= USED 0
+ISP_IF_CALI_SetLS <= USED 0
+ISP_IF_CALI_SetLSOffest <= USED 0
+ISP_IF_CALI_SetMisc <= USED 0
+ISP_IF_CALI_SetMotor <= USED 0
+ISP_IF_CHIP_GetID <= USED 0
+ISP_IF_DBG_CompressTable <= USED 0
+ISP_IF_DBG_DecompressTable <= USED 0
+ISP_IF_DBG_GetDbgData <= USED 0
+ISP_IF_DBG_GetTable <= USED 0
+ISP_IF_DBG_GetTableCols <= USED 0
+ISP_IF_DBG_GetTableMode <= USED 0
+ISP_IF_DBG_GetTableRows <= USED 0
+ISP_IF_DBG_GetTableStartAddr <= USED 0
+ISP_IF_DBG_GetTableTotalSize <= USED 0
+ISP_IF_DBG_GetTableType <= USED 0
+ISP_IF_DBG_GetTableValue <= USED 0
+ISP_IF_DBG_SetData <= USED 0
+ISP_IF_DBG_SetTableByIndex <= USED 0
+ISP_IF_FLASH_Control <= USED 0
+ISP_IF_FLASH_GetMode <= USED 0
+ISP_IF_FLASH_Register <= USED 0
+ISP_IF_FLASH_SetCameraLevel <= USED 0
+ISP_IF_FLASH_SetMode <= USED 0
+ISP_IF_FLASH_SetStatus <= USED 0
+ISP_IF_FLASH_SetTorchLevel <= USED 0
+ISP_IF_F_SetBrightness <= USED 0
+ISP_IF_F_SetColorEffect <= USED 0
+ISP_IF_F_SetHostEvent <= USED 0
+ISP_IF_F_SetIS <= USED 0
+ISP_IF_IQ_CheckBypass <= USED 0
+ISP_IF_IQ_ControlCS <= USED 0
+ISP_IF_IQ_ControlLS <= USED 0
+ISP_IF_IQ_GetID <= USED 0
+ISP_IF_IQ_GetIDOffset <= USED 0
+ISP_IF_IQ_GetSwitch <= USED 0
+ISP_IF_IQ_SetAll <= USED 0
+ISP_IF_IQ_SetCCM <= USED 0
+ISP_IF_IQ_SetCSParams <= USED 0
+ISP_IF_IQ_SetCSTables <= USED 0
+ISP_IF_IQ_SetIDOffset <= USED 0
+ISP_IF_IQ_SetLSParams <= USED 0
+ISP_IF_IQ_SetLSTables <= USED 0
+ISP_IF_IQ_SetRunMode <= USED 0
+ISP_IF_IQ_UpdateInputSize <= USED 0
+ISP_IF_MOTOR_CheckReachPos <= USED 0
+ISP_IF_MOTOR_GetState <= USED 0
+ISP_IF_MOTOR_MoveToZero <= USED 0
+ISP_IF_MOTOR_ReadI2C <= USED 0
+ISP_IF_MOTOR_SetState <= USED 0
+ISP_IF_MOTOR_WriteI2C <= USED 0
+ISP_IF_R_Do3A <= USED 0
+ISP_IF_R_DoAE <= USED 0
+ISP_IF_R_DoAF <= USED 0
+ISP_IF_R_GetAFAcc <= USED 0
+ISP_IF_SNR_GetCurResol <= USED 0
+ISP_IF_SNR_GetDefaultFullResol <= USED 0
+ISP_IF_SNR_GetDefaultPreviewResol <= USED 0
+ISP_IF_SNR_IsInitialized <= USED 0
+ISP_IF_VER_GetIQDataVer <= USED 0
+ISP_IF_VER_GetProjectName <= USED 0
+ISP_IF_VER_GetSensorName <= USED 0
+ISP_IF_VER_GetUserName <= USED 0
+;FILE lib_retina.o
+MMPF_MP4VDEC_FrameEndISR <= USED 0
+MMPF_MP4VDEC_VldISR <= USED 0
+MMPF_NAND_FinishWrite <= USED 0
+MMPF_NAND_GetSize <= USED 0
+MMPF_NAND_ISR <= USED 0
+MMPF_NAND_InitialInterface <= USED 0
+MMPF_NAND_LowLevelFormat <= USED 0
+MMPF_NAND_ReadSector <= USED 0
+MMPF_NAND_Reset <= USED 0
+MMPF_NAND_WriteSector <= USED 0
+delay_1us <= USED 0
+;FILE mmpd_fctl.o
+MMPD_Fctl_GetPreviewAttributes <= USED 0
+MMPD_Fctl_LinkPreviewToFdtc <= USED 0
+MMPD_Fctl_UnlinkPreviewToGraphic <= USED 0
+;FILE mmpd_graphics.o
+MMPD_Graphics_SetScaleAttribute <= USED 0
+;FILE mmpd_ibc.o
+MMPD_IBC_CheckFrameEnd <= USED 0
+MMPD_IBC_ClearFrameEnd <= USED 0
+MMPD_IBC_SetEnable <= USED 0
+;FILE mmpd_icon.o
+MMPD_Icon_SetEnable <= USED 0
+;FILE mmpd_mp4venc.o
+MMPD_H264ENC_GetHeaderInfo <= USED 0
+MMPD_MP4VENC_PauseCapture <= USED 0
+MMPD_MP4VENC_ResumeCapture <= USED 0
+MMPD_MP4VENC_StopCapture <= USED 0
+MMPD_VIDENC_CalculateRefBuf <= USED 0
+MMPD_VIDENC_EnableLineBuf <= USED 0
+MMPD_VIDENC_GetTimeIncrement <= USED 0
+MMPD_VIDENC_GetTimeResolution <= USED 0
+MMPD_VIDENC_GetVideoHeight <= USED 0
+MMPD_VIDENC_GetVideoWidth <= USED 0
+MMPD_VIDENC_PauseCapture <= USED 0
+MMPD_VIDENC_ResumeCapture <= USED 0
+MMPD_VIDENC_SetBitstreamBuf <= USED 0
+MMPD_VIDENC_SetDVSMode <= USED 0
+MMPD_VIDENC_SetLineBuf <= USED 0
+MMPD_VIDENC_SetMiscBuf <= USED 0
+MMPD_VIDENC_SetRefGenBound <= USED 0
+MMPD_VIDENC_SetSourceBuf <= USED 0
+MMPD_VIDENC_SetStoreBufParams <= USED 0
+MMPD_VIDENC_StopCapture <= USED 0
+;FILE mmpd_rawproc.o
+MMPD_RAWPROC_EnablePath <= USED 0
+MMPD_RAWPROC_EnablePreview <= USED 0
+MMPD_RAWPROC_EnableStoreDownsample <= USED 0
+MMPD_RAWPROC_EnableZeroShutterLagPath <= USED 0
+MMPD_RAWPROC_ResetPreviewAttribute <= USED 0
+MMPD_RAWPROC_SetFetchRange <= USED 0
+MMPD_RAWPROC_SetStoreAddr <= USED 0
+MMPD_RAWPROC_SetStoreBuf <= USED 0
+MMPD_RAWPROC_SetStoreDownsample <= USED 0
+MMPD_RAWPROC_StartDVS <= USED 0
+;FILE mmpd_scaler.o
+MMPD_Scaler_AdjustEngine <= USED 0
+MMPD_Scaler_GetEnable <= USED 0
+MMPD_Scaler_SetZoomOP <= USED 0
+;FILE mmpd_sensor.o
+MMPD_Sensor_AllocateBuffer <= USED 0
+;FILE mmpd_system.o
+MMPD_System_GetClock <= USED 0
+;FILE mmpf_3gpmgr.o
+MMPF_3GPMGR_GetNextFrameStartAddr <= USED 0
+MMPF_3GPMGR_GetVidRecdTotalLength <= USED 0
+MMPF_3GPMGR_KeepSizeToFrameQueue <= USED 0
+MMPF_3GPMGR_SetAudioAACParam <= USED 0
+MMPF_3GPMGR_SetStoragePath <= USED 0
+MMPF_3GPMGR_SetVideoEncodeSpeed <= USED 0
+;FILE mmpf_audio.o
+;FILE mmpf_audio_ctl.o
+MMPF_Audio_AACRecordIntHandler <= USED 0
+MMPF_Audio_DummyAudio1CodeStart <= USED 0
+MMPF_Audio_DummyAudio2CodeStart <= USED 0
+MMPF_Audio_GetPlayState <= USED 0
+MMPF_Audio_InitializePlayFIFO <= USED 0
+MMPF_Audio_SetADCAnalogGain <= USED 0
+MMPF_Audio_SetDACAnalogGain <= USED 0
+MMPF_Audio_SetDACDigitalGain <= USED 0
+MMPF_Audio_SetEncodeBuffer <= USED 0
+MMPF_Audio_SetEncodeHandshakeBuf <= USED 0
+MMPF_Audio_SetEncodePath <= USED 0
+MMPF_Audio_SetI2SOutFormat <= USED 0
+MMPF_Audio_SetPLL <= USED 0
+MMPF_Audio_SetPlayBuffer <= USED 0
+MMPF_Audio_SetPlayFormat <= USED 0
+MMPF_Audio_SetPlayHandshakeBuf <= USED 0
+MMPF_Audio_SetPlayPath <= USED 0
+MMPF_I2S_ISR <= USED 0
+MMPF_InitAitCodec <= USED 0
+MMPF_SetAudioOutPath <= USED 0
+MMPF_SetAudioPlayIntThreshold <= USED 0
+MMPF_SetAudioPlayPos <= USED 0
+MMPF_SetAudioRecIntThreshold <= USED 0
+MMPF_SetAudioStreamLength <= USED 0
+;FILE mmpf_audio_task32.o
+;FILE mmpf_display.o
+MMPF_Display_StartSoftwareRefresh <= USED 0
+;FILE mmpf_dma.o
+MMPF_DMA_MoveData <= USED 0
+;FILE mmpf_encapi.o
+MMPF_Audio_3rdPartyEncode <= USED 0
+MMPF_Audio_3rdPartyExit <= USED 0
+MMPF_Audio_3rdPartyInit <= USED 0
+MMPF_Audio_ExitEncoder <= USED 0
+;FILE mmpf_graphics.o
+MMPF_GRA_ISR <= USED 0
+MMPF_Graphic_DrawRectToBuf <= USED 0
+MMPF_Graphic_SetKeyColor <= USED 0
+MMPF_Graphics_Init <= USED 0
+MMPF_Graphics_Scale <= USED 0
+;FILE mmpf_hif.o
+;FILE mmpf_i2cm.o
+MMPF_I2cm_EndSemProtect <= USED 0
+MMPF_I2cm_ReadRegSet <= USED 0
+MMPF_I2cm_SemInit <= USED 0
+MMPF_I2cm_StartSemProtect <= USED 0
+MMPF_I2cm_WriteRegSet <= USED 0
+;FILE mmpf_i2s_ctl.o
+MMPF_CloseI2S <= USED 0
+;FILE mmpf_mp4venc.o
+MMPF_H264ENC_SetMEEnable <= USED 0
+MMPF_H264ENC_TriggerME <= USED 0
+MMPF_MP4VENC_BackupReg <= USED 0
+MMPF_MP4VENC_GetTimeIncrement <= USED 0
+MMPF_MP4VENC_GetTimeResolution <= USED 0
+MMPF_MP4VENC_GetVideoHeight <= USED 0
+MMPF_MP4VENC_GetVideoWidth <= USED 0
+MMPF_MP4VENC_RestoreReg <= USED 0
+MMPF_MP4VENC_Resume <= USED 0
+MMPF_MP4VENC_SetMEEnable <= USED 0
+MMPF_MP4VENC_SetStatus <= USED 0
+MMPF_MP4VENC_TriggerME <= USED 0
+MMPF_VIDENC_GetBitrate <= USED 0
+MMPF_VIDENC_TimerISR <= USED 0
+;FILE mmpf_mp4venc_rc.o
+MMPF_VidRateCtl_ForceQP <= USED 0
+MMPF_VidRateCtl_GetAvgQP <= USED 0
+MMPF_VidRateCtl_SetAECondition <= USED 0
+;FILE mmpf_msg.o
+;FILE mmpf_pio.o
+MMPF_PIO_EnableInterrupt <= USED 0
+MMPF_PIO_EnableTrigMode <= USED 0
+MMPF_PIO_ISR <= USED 0
+MMPF_PIO_Initialize <= USED 0
+;FILE mmpf_pll.o
+MMPF_PLL_GetCPUFreq <= USED 0
+MMPF_PLL_PowerUp <= USED 0
+;FILE mmpf_rawproc.o
+MMPF_RAWPROC_GetLumaBuffer <= USED 0
+;FILE mmpf_scaler.o
+MMPF_Scaler_EnableDNSMP <= USED 0
+MMPF_Scaler_GetScaleUpHBlanking <= USED 0
+MMPF_Scaler_GetZoomInfo <= USED 0
+MMPF_Scaler_GetZoomOutPos <= USED 0
+MMPF_Scaler_SetDigitalZoomOP <= USED 0
+;FILE mmpf_sensor.o
+MMPF_Sensor_AutoFocus <= USED 0
+MMPF_Sensor_GetParam <= USED 0
+MMPF_Sensor_GetPreviewEffectNum <= USED 0
+MMPF_Sensor_GetSensorReg <= USED 0
+MMPF_Sensor_IsFDTCMode <= USED 0
+MMPF_Sensor_IsStableMode <= USED 0
+MMPF_Sensor_SetParam <= USED 0
+MMPF_Sensor_SetPreviewEffect <= USED 0
+MMPF_Sensor_SetSensorReg <= USED 0
+MMPF_Sensor_WaitFrame <= USED 0
+;FILE mmpf_sensor_task32.o
+;FILE mmpf_sif.o
+;FILE mmpf_system.o
+MMPF_SYS_EnterBypassMode <= USED 0
+MMPF_SYS_GetAudioStartAddr <= USED 0
+MMPF_SYS_MakeMsg <= USED 0
+MMPF_SYS_PostOverWrMsg <= USED 0
+MMPF_SYS_SuspendCPU <= USED 0
+;FILE mmpf_timer.o
+MMPF_TIMER1_ISR <= USED 0
+MMPF_TIMER2_ISR <= USED 0
+MMPF_Timer_Close <= USED 0
+MMPF_Timer_EnableInterrupt <= USED 0
+MMPF_Timer_Open <= USED 0
+MMPF_Timer_OpenInterrupt <= USED 0
+;FILE mmpf_uart.o
+MMPF_UART_ISR <= USED 0
+MMPF_Uart_Init <= USED 0
+;FILE mmpf_usb_ctl.o
+MMPF_EnablePCCamCapture <= USED 0
+MMPF_SetPCCAMLineBuf <= USED 0
+MMPF_SetUSB <= USED 0
+;FILE mmpf_usb_task32.o
+;FILE mmpf_usbint.o
+MMPF_SYS_SendMsg <= USED 0
+MSDC_Reset_ReadyFlag <= USED 0
+StallRx <= USED 0
+UsbDetectModeHandler <= USED 0
+UsbDmaRxConfig <= USED 0
+UsbDmaStop <= USED 0
+UsbDmaTxConfig <= USED 0
+UsbPhySwitchPerf <= USED 0
+UsbReadEp0COUNT <= USED 0
+UsbReadRxEpCOUNT <= USED 0
+UsbReadRxEpCSR <= USED 0
+UsbWriteRxEpCSR <= USED 0
+UsbWriteRxMaxP <= USED 0
+;FILE mmpf_usbpccam.o
+MMPF_GetJfifTag <= USED 0
+MMPF_USB_AudioDm <= USED 0
+;FILE mmpf_usbpub.o
+SPI_Read <= USED 0
+;FILE mmpf_usbstd.o
+std_in_clearfeature <= USED 0
+std_in_getdevicequalifierdescriptor <= USED 0
+std_in_setconfiguration <= USED 0
+std_in_setdescriptor <= USED 0
+std_in_setfeature <= USED 0
+std_in_setinterface <= USED 0
+std_out_clearfeature <= USED 0
+std_out_getconfiguration <= USED 0
+std_out_getconfigurationdescriptor <= USED 0
+std_out_getdevicedescriptor <= USED 0
+std_out_getdevicequalifierdescriptor <= USED 0
+std_out_getdevquadescriptor <= USED 0
+std_out_getinterface <= USED 0
+std_out_getstatus <= USED 0
+std_out_getstringdescriptor <= USED 0
+std_out_setaddress <= USED 0
+std_out_setconfiguration <= USED 0
+std_out_setdescriptor <= USED 0
+std_out_setfeature <= USED 0
+std_out_setinterface <= USED 0
+std_out_syncframe <= USED 0
+std_setup_getotherspeedconfigdescriptor <= USED 0
+;FILE mmpf_usbuac.o
+;FILE mmpf_usbuvc.o
+USB_PUT_FIFO <= USED 0
+usb_uvc_search_app3_insert_addr <= USED 0
+usb_vc_su_cs <= USED 0
+usb_vc_su_cs_out <= USED 0
+;FILE mmpf_usbvend.o
+PCCAMSetDevMode <= USED 0
+PCSYNCBulkIn <= USED 0
+PCSYNCBulkInOk <= USED 0
+PCSYNCBulkOut <= USED 0
+PCSYNCBulkOutOk <= USED 0
+UsbProcessVendorCmd <= USED 0
+UsbVendorCmdNoDataPhase <= USED 0
+UsbVendorCmdRx <= USED 0
+;FILE mmpf_vif.o
+MMPF_VIF_EnableOutput <= USED 0
+MMPF_VIF_GetVIFGrabResolution <= USED 0
+;FILE mmph_hif.o
+MMPH_HIF_CmdClearStatusL <= USED 0
+MMPH_HIF_CmdSetStatusL <= USED 0
+MMPH_HIF_GetInterface <= USED 0
+MMPH_HIF_MemCopyDevToHost <= USED 0
+MMPH_HIF_MemCopyHostToDev <= USED 0
+;FILE mmps_3gprecd.o
+MMPS_3GPRECD_SetBFrameCount <= USED 0
+MMPS_3GPRECD_SetStoragePath <= USED 0
+;FILE mmps_sensor.o
+MMPS_Sensor_GetCurConfiguration <= USED 0
+MMPS_Sensor_GetMaxResolution <= USED 0
+MMPS_Sensor_GetRawStoreDownsample <= USED 0
+MMPS_Sensor_SetFrameRate <= USED 0
+;FILE mmu32.o
+AT91F_CleanDCache <= USED 0
+AT91F_DisableDCache <= USED 0
+AT91F_DisableICache <= USED 0
+AT91F_DisableMMU <= USED 0
+AT91F_EnableDCache <= USED 0
+AT91F_EnableICache <= USED 0
+AT91F_EnableMMU <= USED 0
+AT91F_ResetDCache <= USED 0
+AT91F_ResetICache <= USED 0
+MMPF_MMU_ConfigFDTCWorkingBuffer <= USED 0
+MMPF_MMU_ConfigWorkingBuffer <= USED 0
+MMPF_MMU_FlushAndInvalidDCache <= USED 0
+MMPF_MMU_FlushCache <= USED 0
+MMPF_MMU_FlushDCache <= USED 0
+MMPF_UninitMMU <= USED 0
+;FILE motor_ctl.o
+VR_MOTOR_ReadI2C <= USED 0
+VR_Motor_CheckReachPos <= USED 0
+VR_Motor_EnterStandby <= USED 0
+VR_Motor_MoveToZero <= USED 0
+;FILE motor_fp5508.o
+;FILE os_core.o
+OSEventNameGet <= USED 0
+OSEventNameSet <= USED 0
+OSIntEnter <= USED 0
+OSVersion <= USED 0
+OS_Dummy <= USED 0
+OS_TaskIdle <= USED 0
+;FILE os_cpu_c.o
+OSTaskDelHook <= USED 0
+OSTaskIdleHook <= USED 0
+OSTaskStatHook <= USED 0
+;FILE os_flag.o
+OSFlagAccept <= USED 0
+OSFlagNameGet <= USED 0
+OSFlagNameSet <= USED 0
+OSFlagPendGetFlagsRdy <= USED 0
+OSFlagQuery <= USED 0
+;FILE os_mem.o
+OSMemNameGet <= USED 0
+OSMemNameSet <= USED 0
+OSMemQuery <= USED 0
+;FILE os_sem.o
+OSSemAccept <= USED 0
+OSSemQuery <= USED 0
+;FILE os_task.o
+OSTaskCreate <= USED 0
+OSTaskDel <= USED 0
+OSTaskDelReq <= USED 0
+OSTaskNameGet <= USED 0
+OSTaskResume <= USED 0
+OSTaskStkChk <= USED 0
+OSTaskSuspend <= USED 0
+;FILE os_time.o
+OSTimeDlyHMSM <= USED 0
+;FILE os_wrap.o
+MMPF_OS_QueryFlags <= USED 0
+MMPF_OS_QuerySem <= USED 0
+;FILE pcam_api.o
+pcam_usb_init <= USED 0
+pcam_usb_osd_update <= USED 0
+pcam_usb_take_picture <= USED 0
+;FILE pcam_dfu.o
+;FILE pcam_handler.o
+PCAM_USB_Init <= USED 0
+PCAM_USB_TakePicture <= USED 0
+PCAM_USB_UpdateOSD <= USED 0
+;FILE pcam_msg.o
+;FILE pcam_task32.o
+;FILE pcam_usb.o
+USB_SetGamma <= USED 0
+USB_SetHue <= USED 0
+USB_SetVideoQuality <= USED 0
+;FILE quicklz.o
+qlz_compress <= USED 0
+qlz_get_setting <= USED 0
+qlz_size_compressed <= USED 0
+qlz_size_decompressed <= USED 0
+;FILE sensor_ctl.o
+VR_Apical_SetCCMCtl <= USED 0
+VR_Apical_SetSinterCtl <= USED 0
+VR_Apical_SetWDRCtl <= USED 0
+VR_ChangeShuterGainByFPS <= USED 0
+VR_DoAE <= USED 0
+VR_DoAF <= USED 0
+VR_SNR_AWBCali_GET_V2 <= USED 0
+VR_SNR_AWBCali_SET_V2 <= USED 0
+VR_SNR_GetResolutionTable <= USED 0
+VR_SetImageEffect <= USED 0
+VR_SetOprTables <= USED 0
+VR_SetRunMode <= USED 0
+VR_TableN_SetValueByIndex <= USED 0
+VR_Table_AlignVal <= USED 0
+VR_Table_Compress <= USED 0
+VR_Table_Decompress <= USED 0
+VR_UpdateIspInputSize <= USED 0
+cos <= USED 0
+;FILE sensor_mt9t002.o
+MMPF_Sensor_SetColorID <= USED 0
+;FILE sensor_null.o
+;FILE suspend_loop.o
+MMPF_RestoreDefClock <= USED 0
+MMPF_SaveDefClock <= USED 0
+;FILE suspend_wakeup32.o
+;FILE sys_task32.o
+__assert <= USED 0
+_ttywrch <= USED 0
+;FILE text_ctl32.o
+_strcat <= USED 0
+;FILE usb_desc.o
+GetStreamResolution <= USED 0
+;FILE usb_desc_dummy.o

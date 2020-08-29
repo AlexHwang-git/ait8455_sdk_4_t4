@@ -1,0 +1,41 @@
+; 8KB
+ITCM   0x00000000  0x00002000
+{
+    ALL_ITCM    0x00000000  0x00002000
+    {
+        cstartup*.o         (reset, +FIRST)
+        anon$$obj.o         (Veneer$$Code)
+        os_cpu_a.o			(+RO)
+    }
+}
+
+; 8KB
+DTCM   0x00080000  0x0002000
+{
+    ALL_DTCM  0x00080000  0x0002000
+    {
+        *uCOSII.a           (+RO-DATA,+RW,+ZI)
+		anon$$obj.o			(+RO-DATA,+RW,+ZI)
+        bsp.o               (+RO-DATA,+RW,+ZI)
+    }
+}
+
+; (DUMMY)
+TCM_END 0x00082000   0x0
+{
+    TCM_END +0
+    {
+        .ANY                (dummy)
+    }
+}
+
+; 16MB, using only 3MB
+DRAM    0x01000000  0x00300000
+{
+    ALL_DRAM  0x01000000  0x00300000
+    {
+        .ANY                (+RO,+RW,+ZI)
+    }
+}
+
+

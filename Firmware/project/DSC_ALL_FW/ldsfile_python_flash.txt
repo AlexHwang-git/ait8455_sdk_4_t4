@@ -1,0 +1,77 @@
+; 8KB
+;ITCM   0x00001B00  0x00000500 ; Python 
+ITCM   0x00001000  0x00001000  ; PV2
+{
+    ;ALL_ITCM    0x00001B00  0x00000500 ; Python
+    ALL_ITCM    0x00001000  0x00001000  ; PV2
+    {
+        cstartup*.o         (reset, +FIRST)
+; ITCM section for Suspend codes 
+        Suspend_Wakeup.o    (CPUAsync)
+        mmpf_pll.o          (PLLWait)
+        mmu.o               (player_isrs)
+        mmpf_usbuvc.o       (usbfifo_copy)
+    }
+}
+
+; 8KB
+DTCM   0x00080000  0x0002000
+{
+    ALL_DTCM  0x00080000  0x0002000
+    {
+        *uCOSII.a           (+RO-DATA,+RW,+ZI)
+        ;	anon$$obj.o			(+RO-DATA,+RW,+ZI) ; for audio_lib
+        bsp.o               (+RO-DATA,+RW,+ZI)
+        ;BMFNS128_tables_stereo.o (+RO-DATA)  ; for audio_lib
+    }
+} 
+
+; (DUMMY)
+TCM_END 0x00082000   0x0
+{
+    TCM_END +0
+    {
+        .ANY                (dummy)
+    }
+}
+
+;SRAM    0x0018F000  0x00009000              ; 16KB
+;SRAM    0x00194000  0x00004000              ; 16KB
+SRAM    0x00180000  0x00018000              ; 96KB
+{	
+	;ALL_SRAM  0x0018F000  0x00009000  
+	;ALL_SRAM  0x00194000  0x00004000            
+    ALL_SRAM    0x00180000  0x00018000              ; 96KB
+	{
+          Suspend_Wakeup.o	(+RO, +RW, +ZI)
+          Suspend_Loop.o      (+RO, +RW, +ZI)
+          bsp.o               (+RO-CODE)
+          ;mmpf_usb_irq.o      (+RO,+RW,+ZI) 
+          mmpf_usbint.o       (+RO,+RW,+ZI)
+          mmpf_system.o       (+RO,+RW,+ZI)   
+          os_wrap.o           (+RO,+RW,+ZI)  
+          mmph_hif.o          (+RO,+RW,+ZI) 
+          ait_bsp.o           (+RO,+RW,+ZI) 
+          
+          lib_retina.o           (+RO,+RW,+ZI) // for exception handler
+              
+         ; Audio library part
+         ; Notchfilter for 8KHz
+         *NotchFilterLite.a   (+RO,+RW,+ZI)
+         
+         ;*libBF-arm9e.lib		(+RO,+RW,+ZI)  // increase 20KB
+         hdm_ctl.o              (accbuffer)
+	}
+}
+
+
+; 16MB, using only 1MB
+DRAM    0x01000000  0x00100000
+{
+    ALL_DRAM  0x01000000  0x00100000
+    {
+        .ANY                (+RO,+RW,+ZI)
+    }
+}
+
+

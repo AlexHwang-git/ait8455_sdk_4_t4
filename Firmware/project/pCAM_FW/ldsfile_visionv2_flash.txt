@@ -1,0 +1,50 @@
+
+; (DUMMY)
+TCM_END 0x00081000   0x0
+{
+    TCM_END +0
+    {
+        .ANY                (dummy)
+    }
+}
+
+
+; 8MB, using only 1MB
+DRAM    0x01000000  0x00100000
+{
+    ALL_DRAM  0x01000000  0x00100000
+    {
+    	cstartup*.o         (reset, +FIRST)
+        .ANY                (+RO,+RW,+ZI)
+    }
+    
+    ;In VSN_V2 case, H264 use 130KB frame buffer size
+    SRAM_H264 0x100000 0x20800
+    {
+        .ANY            (dummy)
+    }
+    ; JPG line buffer is small for UVC1.5
+    SRAM_JPG 0x120800 0x7800
+    {
+        .ANY            (dummy)
+    }
+
+    ;Reserved for suspend/wakeup.
+    SRAM_CODE 0x128000	 0x1000
+    {
+    	mmpf_system.o           (EnterSelfSleepMode)
+        mmpf_dram.o             (EnterSelfSleepMode)
+    }
+    
+    ; MMU table from 0x12C000~0x130000
+    SRAM_MMU  0x12C000  0x4000
+    {
+        .ANY            (dummy)
+    }
+    
+    SRAM_END 0x0130000   0x0
+    {
+        .ANY            (dummy)
+    }
+    
+}

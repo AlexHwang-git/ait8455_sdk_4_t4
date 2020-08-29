@@ -1,0 +1,1512 @@
+ARM Linker, 4.1 [Build 481] [Standard]
+
+==============================================================================
+
+Removing Unused input sections from the image.
+
+    Removing pcam_usb.o(.text), (64 bytes).
+    Removing pcam_usb.o(.text), (24 bytes).
+    Removing pcam_usb.o(.text), (24 bytes).
+    Removing pcam_usb.o(.text), (48 bytes).
+    Removing pcam_usb.o(.text), (24 bytes).
+    Removing pcam_usb.o(.text), (56 bytes).
+    Removing pcam_usb.o(.text), (24 bytes).
+    Removing pcam_usb.o(.text), (28 bytes).
+    Removing pcam_usb.o(.text), (24 bytes).
+    Removing pcam_usb.o(.text), (4 bytes).
+    Removing pcam_usb.o(.text), (4 bytes).
+    Removing pcam_usb.o(.text), (24 bytes).
+    Removing pcam_usb.o(.text), (52 bytes).
+    Removing pcam_api.o(.text), (18 bytes).
+    Removing pcam_api.o(.text), (18 bytes).
+    Removing pcam_api.o(.text), (18 bytes).
+    Removing pcam_api.o(.text), (68 bytes).
+    Removing pcam_api.o(.text), (36 bytes).
+    Removing pcam_dfu.o(.text), (452 bytes).
+    Removing pcam_dfu.o(.data), (8 bytes).
+    Removing pcam_handler.o(.text), (4 bytes).
+    Removing pcam_handler.o(.text), (4 bytes).
+    Removing pcam_handler.o(.text), (4 bytes).
+    Removing pcam_handler.o(.text), (4 bytes).
+    Removing pcam_handler.o(.text), (4 bytes).
+    Removing pcam_handler.o(.text), (4 bytes).
+    Removing mmpd_system.o(.text), (4 bytes).
+    Removing mmpd_system.o(.text), (72 bytes).
+    Removing mmpd_mp4venc.o(.text), (22 bytes).
+    Removing mmpd_mp4venc.o(.text), (12 bytes).
+    Removing mmpd_mp4venc.o(.text), (12 bytes).
+    Removing mmpd_mp4venc.o(.text), (12 bytes).
+    Removing mmpd_mp4venc.o(.text), (12 bytes).
+    Removing mmpd_mp4venc.o(.text), (8 bytes).
+    Removing mmpd_mp4venc.o(.text), (8 bytes).
+    Removing mmpd_mp4venc.o(.text), (8 bytes).
+    Removing mmpd_rawproc.o(.text), (4 bytes).
+    Removing mmpd_rawproc.o(.text), (4 bytes).
+    Removing mmpd_rawproc.o(.text), (4 bytes).
+    Removing mmpd_rawproc.o(.text), (4 bytes).
+    Removing mmpd_rawproc.o(.text), (4 bytes).
+    Removing mmpd_rawproc.o(.text), (4 bytes).
+    Removing mmpd_rawproc.o(.text), (4 bytes).
+    Removing mmpd_rawproc.o(.text), (4 bytes).
+    Removing mmpd_rawproc.o(.text), (4 bytes).
+    Removing mmpd_rawproc.o(.text), (4 bytes).
+    Removing mmpd_rawproc.o(.text), (4 bytes).
+    Removing mmph_hif.o(.text), (28 bytes).
+    Removing mmph_hif.o(.text), (20 bytes).
+    Removing mmph_hif.o(.text), (20 bytes).
+    Removing mmph_hif.o(.text), (20 bytes).
+    Removing mmph_hif.o(.text), (40 bytes).
+    Removing mmph_hif.o(.text), (40 bytes).
+    Removing mmps_3gprecd.o(.text), (8 bytes).
+    Removing mmps_3gprecd.o(.text), (8 bytes).
+    Removing mmps_3gprecd.o(.text), (8 bytes).
+    Removing mmps_sensor.o(.text), (68 bytes).
+    Removing mmps_sensor.o(.text), (36 bytes).
+    Removing mmps_sensor.o(.text), (48 bytes).
+    Removing mmps_sensor.o(.text), (12 bytes).
+    Removing mmpf_i2s_ctl.o(.text), (12 bytes).
+    Removing mmpf_audio_ctl.o(.text), (4 bytes).
+    Removing mmpf_audio_ctl.o(.text), (4 bytes).
+    Removing mmpf_audio_ctl.o(.text), (4 bytes).
+    Removing mmpf_audio_ctl.o(.text), (4 bytes).
+    Removing mmpf_audio_ctl.o(.text), (12 bytes).
+    Removing mmpf_audio_ctl.o(.text), (108 bytes).
+    Removing mmpf_audio_ctl.o(.text), (200 bytes).
+    Removing mmpf_audio_ctl.o(.text), (4 bytes).
+    Removing mmpf_audio_ctl.o(.data), (1 bytes).
+    Removing mmpf_audio_ctl.o(.data), (1 bytes).
+    Removing mmpf_audio_ctl.o(.data), (1 bytes).
+    Removing mmpf_audio_ctl.o(.data), (1 bytes).
+    Removing mmpf_audio_ctl.o(.data), (1 bytes).
+    Removing mmpf_i2s_irq.o(AIT_IRQ), (164 bytes).
+    Removing mmpf_encapi.o(.text), (2 bytes).
+    Removing mmpf_encapi.o(.text), (2 bytes).
+    Removing mmpf_encapi.o(.text), (2 bytes).
+    Removing mmpf_encapi.o(.text), (88 bytes).
+    Removing mmpf_encapi.o(.text), (20 bytes).
+    Removing mmpf_encapi.o(.text), (4 bytes).
+    Removing mmpf_encapi.o(.text), (2 bytes).
+    Removing bsp.o(.text), (172 bytes).
+    Removing bsp.o(.text), (2 bytes).
+    Removing bsp.o(.text), (2 bytes).
+    Removing mmu32.o(.text), (68 bytes).
+    Removing mmu32.o(.text), (16 bytes).
+    Removing mmu32.o(.text), (28 bytes).
+    Removing mmu32.o(.text), (16 bytes).
+    Removing mmu32.o(.text), (16 bytes).
+    Removing mmu32.o(.text), (16 bytes).
+    Removing mmu32.o(.text), (16 bytes).
+    Removing mmu32.o(.text), (16 bytes).
+    Removing mmu32.o(.text), (16 bytes).
+    Removing mmu32.o(.text), (56 bytes).
+    Removing mmu32.o(.text), (716 bytes).
+    Removing mmu32.o(player_isrs), (20 bytes).
+    Removing mmpf_vif.o(.text), (20 bytes).
+    Removing mmpf_vif.o(.text), (32 bytes).
+    Removing mmpf_display.o(.text), (2 bytes).
+    Removing mmpf_display.o(.text), (2 bytes).
+    Removing mmpf_display.o(.text), (112 bytes).
+    Removing mmpf_display.o(.text), (12 bytes).
+    Removing mmpf_display.o(.bss), (104 bytes).
+    Removing mmpf_display.o(.data), (1 bytes).
+    Removing mmpf_display.o(.data), (1 bytes).
+    Removing mmpf_display.o(.data), (1 bytes).
+    Removing mmpf_display.o(.data), (4 bytes).
+    Removing mmpf_display.o(.data), (3 bytes).
+    Removing mmpf_display.o(.data), (3 bytes).
+    Removing mmpf_dma.o(.text), (76 bytes).
+    Removing mmpf_dma.o(.text), (192 bytes).
+    Removing mmpf_graphics.o(.text), (40 bytes).
+    Removing mmpf_graphics.o(.text), (48 bytes).
+    Removing mmpf_graphics.o(.data), (4 bytes).
+    Removing mmpf_hif.o(.data), (4 bytes).
+    Removing mmpf_i2cm.o(.text), (84 bytes).
+    Removing mmpf_i2cm.o(.text), (352 bytes).
+    Removing mmpf_i2cm.o(.text), (384 bytes).
+    Removing mmpf_i2cm.o(.text), (584 bytes).
+    Removing mmpf_i2cm.o(.text), (744 bytes).
+    Removing mmpf_i2cm.o(.text), (24 bytes).
+    Removing mmpf_i2cm.o(.text), (20 bytes).
+    Removing mmpf_pll.o(.text), (12 bytes).
+    Removing mmpf_pll.o(.text), (116 bytes).
+    Removing mmpf_pll.o(.text), (16 bytes).
+    Removing mmpf_rawproc.o(.text), (20 bytes).
+    Removing mmpf_rawproc.o(.text), (12 bytes).
+    Removing mmpf_rawproc.o(.text), (44 bytes).
+    Removing mmpf_rawproc.o(.text), (32 bytes).
+    Removing mmpf_rawproc.o(.text), (28 bytes).
+    Removing mmpf_rawproc.o(.text), (316 bytes).
+    Removing mmpf_rawproc.o(.text), (28 bytes).
+    Removing mmpf_rawproc.o(.text), (136 bytes).
+    Removing mmpf_rawproc.o(.text), (172 bytes).
+    Removing mmpf_rawproc.o(.text), (76 bytes).
+    Removing mmpf_rawproc.o(.text), (32 bytes).
+    Removing mmpf_rawproc.o(.text), (128 bytes).
+    Removing mmpf_rawproc.o(.text), (132 bytes).
+    Removing mmpf_rawproc.o(.text), (20 bytes).
+    Removing mmpf_rawproc.o(.text), (44 bytes).
+    Removing mmpf_rawproc.o(.text), (64 bytes).
+    Removing mmpf_rawproc.o(.text), (48 bytes).
+    Removing mmpf_rawproc.o(.text), (72 bytes).
+    Removing mmpf_rawproc.o(.text), (60 bytes).
+    Removing mmpf_rawproc.o(.text), (124 bytes).
+    Removing mmpf_rawproc.o(.text), (172 bytes).
+    Removing mmpf_rawproc.o(.text), (1328 bytes).
+    Removing mmpf_rawproc.o(.text), (28 bytes).
+    Removing mmpf_rawproc.o(.text), (32 bytes).
+    Removing mmpf_rawproc.o(.text), (104 bytes).
+    Removing mmpf_rawproc.o(.text), (88 bytes).
+    Removing mmpf_rawproc.o(.constdata), (24 bytes).
+    Removing mmpf_rawproc.o(.data), (1 bytes).
+    Removing mmpf_scaler.o(.text), (4 bytes).
+    Removing mmpf_scaler.o(.text), (40 bytes).
+    Removing mmpf_scaler.o(.text), (124 bytes).
+    Removing mmpf_scaler.o(.text), (24 bytes).
+    Removing mmpf_scaler.o(.text), (32 bytes).
+    Removing mmpf_scaler.o(.text), (128 bytes).
+    Removing mmpf_scaler.o(.text), (40 bytes).
+    Removing mmpf_system.o(.text), (140 bytes).
+    Removing mmpf_system.o(.text), (56 bytes).
+    Removing mmpf_system.o(.text), (44 bytes).
+    Removing mmpf_system.o(.text), (6 bytes).
+    Removing mmpf_system.o(.text), (68 bytes).
+    Removing mmpf_system.o(.text), (44 bytes).
+    Removing mmpf_system.o(.text), (12 bytes).
+    Removing mmpf_system.o(.text), (28 bytes).
+    Removing mmpf_system.o(.data), (2 bytes).
+    Removing mmpf_timer.o(.text), (136 bytes).
+    Removing mmpf_timer.o(.text), (2 bytes).
+    Removing mmpf_uart.o(.text), (2 bytes).
+    Removing mmpf_uart.o(.text), (4 bytes).
+    Removing mmpf_uart.o(.data), (2 bytes).
+    Removing mmpf_graphics_irq.o(AIT_IRQ), (164 bytes).
+    Removing mmpf_pio.o(.text), (188 bytes).
+    Removing mmpf_pio.o(.text), (124 bytes).
+    Removing mmpf_pwm.o(.text), (168 bytes).
+    Removing mmpf_pwm.o(.text), (36 bytes).
+    Removing mmpf_pwm.o(.text), (32 bytes).
+    Removing mmpf_dram.o(.text), (4 bytes).
+    Removing mmpf_dram.o(.text), (4 bytes).
+    Removing mmpf_dram.o(.text), (28 bytes).
+    Removing mmpf_dram.o(.data), (1 bytes).
+    Removing mmpf_dram.o(.data), (1 bytes).
+    Removing mmpf_dram.o(.data), (16 bytes).
+    Removing mmpf_ibc.o(.text), (68 bytes).
+    Removing mmpf_ibc.o(.text), (44 bytes).
+    Removing mmpf_fctl.o(.text), (28 bytes).
+    Removing mmpf_fctl.o(.text), (4 bytes).
+    Removing mmpf_sf.o(.text), (28 bytes).
+    Removing mmpf_sf.o(.text), (16 bytes).
+    Removing mmpf_sf.o(.text), (24 bytes).
+    Removing mmpf_sf.o(.text), (36 bytes).
+    Removing mmpf_sf.o(.text), (36 bytes).
+    Removing mmpf_sf.o(.text), (48 bytes).
+    Removing mmpf_sf.o(.text), (44 bytes).
+    Removing mmpf_sf.o(.text), (28 bytes).
+    Removing mmpf_sf.o(.text), (28 bytes).
+    Removing mmpf_sf.o(.text), (68 bytes).
+    Removing mmpf_sf.o(.text), (28 bytes).
+    Removing mmpf_sf.o(.text), (28 bytes).
+    Removing mmpf_sf.o(.text), (28 bytes).
+    Removing mmpf_sf.o(.text), (16 bytes).
+    Removing os_wrap.o(.text), (44 bytes).
+    Removing lib_retina.o(.text), (8 bytes).
+    Removing lib_retina.o(.text), (96 bytes).
+    Removing lib_retina.o(.text), (2 bytes).
+    Removing lib_retina.o(.text), (2 bytes).
+    Removing lib_retina.o(.text), (6 bytes).
+    Removing lib_retina.o(.text), (6 bytes).
+    Removing lib_retina.o(.text), (10 bytes).
+    Removing lib_retina.o(.text), (4 bytes).
+    Removing lib_retina.o(.text), (4 bytes).
+    Removing lib_retina.o(.text), (4 bytes).
+    Removing lib_retina.o(.text), (4 bytes).
+    Removing lib_retina.o(.text), (2 bytes).
+    Removing sys_task32.o(.text), (312 bytes).
+    Removing sys_task32.o(.text), (4 bytes).
+    Removing sys_task32.o(.text), (4 bytes).
+    Removing mmpf_sensor.o(.text), (12 bytes).
+    Removing mmpf_sensor.o(.text), (36 bytes).
+    Removing mmpf_sensor.o(.text), (12 bytes).
+    Removing mmpf_sensor.o(.text), (12 bytes).
+    Removing mmpf_sensor.o(.text), (8 bytes).
+    Removing mmpf_sensor.o(.text), (40 bytes).
+    Removing mmpf_sensor.o(.text), (32 bytes).
+    Removing mmpf_sensor.o(.text), (12 bytes).
+    Removing mmpf_sensor.o(.text), (20 bytes).
+    Removing mmpf_sensor.o(.data), (4 bytes).
+    Removing mmpf_sensor.o(.data), (4 bytes).
+    Removing mmpf_sensor.o(.data), (2 bytes).
+    Removing mmpf_usb_ctl.o(.text), (72 bytes).
+    Removing mmpf_usb_ctl.o(.text), (56 bytes).
+    Removing mmpf_usb_ctl.o(.data), (4 bytes).
+    Removing mmpf_usb_ctl.o(.data), (1 bytes).
+    Removing mmpf_usb_ctl.o(.data), (1 bytes).
+    Removing mmpf_usbint.o(.text), (20 bytes).
+    Removing mmpf_usbint.o(.text), (20 bytes).
+    Removing mmpf_usbint.o(.text), (44 bytes).
+    Removing mmpf_usbint.o(.text), (20 bytes).
+    Removing mmpf_usbint.o(.text), (20 bytes).
+    Removing mmpf_usbint.o(.text), (28 bytes).
+    Removing mmpf_usbint.o(.text), (2 bytes).
+    Removing mmpf_usbint.o(.text), (74 bytes).
+    Removing mmpf_usbint.o(.data), (4 bytes).
+    Removing mmpf_usbint.o(.data), (1 bytes).
+    Removing mmpf_usbpccam.o(.text), (12 bytes).
+    Removing mmpf_usbpccam.o(.text), (14 bytes).
+    Removing mmpf_usbpccam.o(.text), (28 bytes).
+    Removing mmpf_usbpccam.o(.text), (22 bytes).
+    Removing mmpf_usbpccam.o(.text), (152 bytes).
+    Removing mmpf_usbpccam.o(.text), (44 bytes).
+    Removing mmpf_usbpccam.o(.text), (24 bytes).
+    Removing mmpf_usbpub.o(.text), (180 bytes).
+    Removing mmpf_usbpub.o(.bss), (2048 bytes).
+    Removing mmpf_usbstd.o(.text), (2 bytes).
+    Removing mmpf_usbstd.o(.text), (12 bytes).
+    Removing mmpf_usbstd.o(.text), (2 bytes).
+    Removing mmpf_usbstd.o(.text), (2 bytes).
+    Removing mmpf_usbstd.o(.text), (2 bytes).
+    Removing mmpf_usbstd.o(.text), (2 bytes).
+    Removing mmpf_usbstd.o(.text), (12 bytes).
+    Removing mmpf_usbstd.o(.text), (2 bytes).
+    Removing mmpf_usbstd.o(.text), (2 bytes).
+    Removing mmpf_usbstd.o(.text), (2 bytes).
+    Removing mmpf_usbstd.o(.text), (2 bytes).
+    Removing mmpf_usbstd.o(.text), (2 bytes).
+    Removing mmpf_usbstd.o(.text), (2 bytes).
+    Removing mmpf_usbstd.o(.text), (2 bytes).
+    Removing mmpf_usbstd.o(.text), (2 bytes).
+    Removing mmpf_usbstd.o(.text), (2 bytes).
+    Removing mmpf_usbstd.o(.text), (2 bytes).
+    Removing mmpf_usbstd.o(.text), (20 bytes).
+    Removing mmpf_usbstd.o(.text), (2 bytes).
+    Removing mmpf_usbstd.o(.text), (2 bytes).
+    Removing mmpf_usbuvc.o(.text), (52 bytes).
+    Removing mmpf_usbuvc.o(.text), (128 bytes).
+    Removing mmpf_usbuvc.o(.text), (2 bytes).
+    Removing mmpf_usbuvc.o(.text), (2 bytes).
+    Removing mmpf_usbuvc.o(.text), (2 bytes).
+    Removing mmpf_usbuvc.o(.text), (2 bytes).
+    Removing mmpf_usbuvc.o(.text), (56 bytes).
+    Removing mmpf_usbuvc.o(.text), (340 bytes).
+    Removing mmpf_usbuvc.o(.text), (72 bytes).
+    Removing mmpf_usbuvc.o(.text), (480 bytes).
+    Removing mmpf_usbuvc.o(.text), (44 bytes).
+    Removing mmpf_usbuvc.o(.text), (36 bytes).
+    Removing mmpf_usbuvc.o(.text), (40 bytes).
+    Removing mmpf_usbuvc.o(.text), (140 bytes).
+    Removing mmpf_usbuvc.o(.text), (164 bytes).
+    Removing mmpf_usbuvc.o(.text), (56 bytes).
+    Removing mmpf_usbuvc.o(.text), (52 bytes).
+    Removing mmpf_usbuvc.o(.bss), (11 bytes).
+    Removing mmpf_usbuvc.o(.bss), (32 bytes).
+    Removing mmpf_usbuvc.o(.data), (1 bytes).
+    Removing mmpf_usbuvc.o(.data), (1 bytes).
+    Removing mmpf_usbuvc.o(.data), (500 bytes).
+    Removing mmpf_usbuvc.o(.data), (32 bytes).
+    Removing mmpf_usbuvc.o(.data), (32 bytes).
+    Removing mmpf_usbuvc.o(.data), (32 bytes).
+    Removing mmpf_usbuvc.o(.data), (32 bytes).
+    Removing mmpf_usbuvc.o(.data), (32 bytes).
+    Removing mmpf_usbuvc.o(.data), (2 bytes).
+    Removing mmpf_usbuvc.o(.data), (1 bytes).
+    Removing mmpf_usbuvc.o(.data), (1 bytes).
+    Removing mmpf_usbuvc.o(.data), (1 bytes).
+    Removing suspend_loop.o(.text), (12 bytes).
+    Removing suspend_loop.o(.text), (2 bytes).
+    Removing mmpf_usbuvch264.o(.text), (128 bytes).
+    Removing mmpf_usbuvch264.o(.text), (28 bytes).
+    Removing mmpf_usbuvch264.o(.text), (44 bytes).
+    Removing mmpf_usbuvch264.o(.text), (4 bytes).
+    Removing mmpf_usbuvch264.o(.text), (80 bytes).
+    Removing mmpf_usbuvch264.o(.text), (104 bytes).
+    Removing mmpf_usbuvch264.o(.text), (136 bytes).
+    Removing mmpf_usbuvch264.o(.data), (32 bytes).
+    Removing mmpf_usbuvch264.o(.data), (32 bytes).
+    Removing mmpf_usbuvch264.o(.data), (32 bytes).
+    Removing suspend_wakeup32.o(.data), (1 bytes).
+    Removing mmpf_usbuvc15h264.o(.text), (20 bytes).
+    Removing mmpf_usbuvc15h264.o(.text), (12 bytes).
+    Removing mmpf_usbuvc15h264.o(.text), (12 bytes).
+    Removing mmpf_usbuvc15h264.o(.text), (12 bytes).
+    Removing mmpf_usbuvc15h264.o(.text), (20 bytes).
+    Removing mmpf_usbuvc15h264.o(.text), (12 bytes).
+    Removing mmpf_usbuvc15h264.o(.text), (12 bytes).
+    Removing mmpf_usbuvc15h264.o(.text), (204 bytes).
+    Removing mmpf_usbuvc15h264.o(.text), (308 bytes).
+    Removing mmpf_usbuvc15h264.o(.text), (316 bytes).
+    Removing mmpf_usbuvc15h264.o(.text), (156 bytes).
+    Removing mmpf_usbuvc15h264.o(.text), (136 bytes).
+    Removing mmpf_usbuvc15h264.o(.text), (202 bytes).
+    Removing mmpf_usbuvc15h264.o(.text), (244 bytes).
+    Removing mmpf_usbuvc15h264.o(.text), (136 bytes).
+    Removing mmpf_usbuvc15h264.o(.text), (62 bytes).
+    Removing mmpf_usbuvc15h264.o(.text), (180 bytes).
+    Removing mmpf_usbuvc15h264.o(.text), (130 bytes).
+    Removing mmpf_usbuvc15h264.o(.text), (164 bytes).
+    Removing mmpf_usbuvc15h264.o(.text), (144 bytes).
+    Removing mmpf_usbuvc15h264.o(.text), (112 bytes).
+    Removing mmpf_usbuvc15h264.o(.text), (18 bytes).
+    Removing mmpf_usbuvc15h264.o(.constdata), (8 bytes).
+    Removing mmpf_usbuvc15h264.o(.data), (2 bytes).
+    Removing mmpf_usbuvc15h264.o(.data), (32 bytes).
+    Removing mmpf_usbuvc15h264.o(.data), (6 bytes).
+    Removing mmpf_usbuvc15h264.o(.data), (32 bytes).
+    Removing mmpf_usbuvc15h264.o(.data), (4 bytes).
+    Removing mmpf_usbuvc15h264.o(.data), (32 bytes).
+    Removing mmpf_usbuvc15h264.o(.data), (4 bytes).
+    Removing mmpf_usbuvc15h264.o(.data), (32 bytes).
+    Removing mmpf_usbuvc15h264.o(.data), (4 bytes).
+    Removing mmpf_usbuvc15h264.o(.data), (32 bytes).
+    Removing mmpf_usbuvc15h264.o(.data), (1 bytes).
+    Removing mmpf_usbuvc15h264.o(.data), (32 bytes).
+    Removing mmpf_usbuvc15h264.o(.data), (4 bytes).
+    Removing mmpf_usbuvc15h264.o(.data), (32 bytes).
+    Removing mmpf_usbuvc15h264.o(.data), (4 bytes).
+    Removing mmpf_usbuvc15h264.o(.data), (32 bytes).
+    Removing mmpf_usbuvc15h264.o(.data), (4 bytes).
+    Removing mmpf_usbuvc15h264.o(.data), (32 bytes).
+    Removing mmpf_usbuvc15h264.o(.data), (32 bytes).
+    Removing mmpf_usbuvc15h264.o(.data), (4 bytes).
+    Removing mmpf_usbuvc15h264.o(.data), (32 bytes).
+    Removing mmpf_usbuvc15h264.o(.data), (32 bytes).
+    Removing mmpf_usbuvc15h264.o(.data), (32 bytes).
+    Removing mmpf_usbuvc15h264.o(.data), (1 bytes).
+    Removing mmpf_usbuvc15h264.o(.data), (32 bytes).
+    Removing mmpf_usbuvc15h264.o(.data), (2 bytes).
+    Removing mmpf_usbuvc15h264.o(.data), (32 bytes).
+    Removing mmpf_usbuvc15h264.o(.data), (8 bytes).
+    Removing mmpf_usbuvc15h264.o(.data), (32 bytes).
+    Removing mmpf_usbuvc15h264.o(.data), (6 bytes).
+    Removing mmpf_usbuvc15h264.o(.data), (1 bytes).
+    Removing mmpf_usbuvc15h264.o(.data), (1 bytes).
+    Removing mmpf_usbuvc_event.o(.text), (348 bytes).
+    Removing mmpf_usbuvc_event.o(.data), (144 bytes).
+    Removing mmpf_3gpmgr.o(.text), (12 bytes).
+    Removing mmpf_3gpmgr.o(.text), (12 bytes).
+    Removing mmpf_3gpmgr.o(.text), (16 bytes).
+    Removing mmpf_3gpmgr.o(.text), (16 bytes).
+    Removing mmpf_3gpmgr.o(.bss), (36 bytes).
+    Removing mmpf_3gpmgr.o(.bss), (36 bytes).
+    Removing mmpf_3gpmgr.o(.bss), (188 bytes).
+    Removing mmpf_3gpmgr.o(.bss), (188 bytes).
+    Removing mmpf_3gpmgr.o(.bss), (188 bytes).
+    Removing mmpf_3gpmgr.o(.data), (16 bytes).
+    Removing mmpf_3gpmgr.o(.data), (4 bytes).
+    Removing mmpf_3gpmgr.o(.data), (4 bytes).
+    Removing mmpf_3gpmgr.o(.data), (4 bytes).
+    Removing mmpf_mp4venc_rc.o(.text), (52 bytes).
+    Removing mmpf_mp4venc_rc.o(.data), (4 bytes).
+    Removing mmpf_mp4venc.o(.text), (28 bytes).
+    Removing mmpf_mp4venc.o(.text), (56 bytes).
+    Removing mmpf_mp4venc.o(.text), (44 bytes).
+    Removing mmpf_mp4venc.o(.text), (12 bytes).
+    Removing mmpf_mp4venc.o(.text), (12 bytes).
+    Removing mmpf_mp4venc.o(.bss), (92 bytes).
+    Removing mmpf_h264enc.o(.text), (48 bytes).
+    Removing mmpf_h264enc.o(.text), (48 bytes).
+    Removing mmpf_h264enc.o(.text), (48 bytes).
+    Removing mmpf_h264enc.o(.text), (48 bytes).
+    Removing mmpf_h264enc.o(.text), (444 bytes).
+    Removing mmpf_h264enc.o(.text), (28 bytes).
+    Removing mmpf_h264enc.o(.text), (26 bytes).
+    Removing mmpf_h264enc.o(.text), (30 bytes).
+    Removing mmpf_h264enc.o(.text), (24 bytes).
+    Removing mmpf_h264enc.o(.text), (44 bytes).
+    Removing mmpf_h264enc.o(.text), (22 bytes).
+    Removing ait_config.o(.text), (8 bytes).
+    Removing ait_config.o(.text), (8 bytes).
+    Removing config_fw.o(.data), (3 bytes).
+    Removing config_fw.o(.data), (14 bytes).
+    Removing sensor_mt9t002.o(.text), (8 bytes).
+    Removing sensor_mt9t002.o(.text), (2 bytes).
+    Removing sensor_mt9t002.o(.data), (60 bytes).
+    Removing text_ctl32.o(.text), (34 bytes).
+    Removing hdm_ctl.o(.text), (4 bytes).
+    Removing hdm_ctl.o(.bss), (18 bytes).
+    Removing hdm_ctl.o(.data), (1 bytes).
+    Removing faceproc.o(.text), (12 bytes).
+    Removing faceproc.o(.text), (16 bytes).
+    Removing faceproc.o(.text), (12 bytes).
+    Removing faceproc.o(.text), (44 bytes).
+    Removing faceproc.o(.text), (100 bytes).
+    Removing faceproc.o(.text), (40 bytes).
+    Removing faceproc.o(.text), (36 bytes).
+    Removing faceproc.o(.text), (52 bytes).
+    Removing faceproc.o(.text), (36 bytes).
+    Removing faceproc.o(.text), (116 bytes).
+    Removing faceproc.o(.text), (28 bytes).
+    Removing faceproc.o(.text), (4 bytes).
+    Removing faceproc.o(.text), (40 bytes).
+    Removing faceproc.o(.text), (2 bytes).
+    Removing faceproc.o(.text), (2 bytes).
+    Removing faceproc.o(.text), (88 bytes).
+    Removing faceproc.o(.text), (2 bytes).
+    Removing faceproc.o(.text), (364 bytes).
+    Removing faceproc.o(.text), (52 bytes).
+    Removing faceproc.o(.constdata), (8 bytes).
+    Removing faceproc.o(.data), (4 bytes).
+    Removing mxmem.o(.text), (20 bytes).
+    Removing mxmem.o(.text), (64 bytes).
+    Removing mxmem.o(.text), (92 bytes).
+    Removing nvram.o(.text), (4 bytes).
+    Removing nvram.o(.text), (4 bytes).
+    Removing nvram.o(.text), (20 bytes).
+    Removing nvram.o(.text), (16 bytes).
+    Removing extra.o(.text), (12 bytes).
+    Removing ait_caf.o(.data), (24 bytes).
+
+451 unused section(s) (total 25767 bytes) removed from the image.
+
+==============================================================================
+
+Adding Veneers to the image
+
+    Adding AA veneer (4 bytes, Short) for call to 'OS_CPU_SR_Save' from mmpf_system.o(EnterSelfSleepMode).
+    Adding AT veneer (8 bytes, Long) for call to 'MMPF_SYS_SetWakeUpEvent' from mmpf_system.o(EnterSelfSleepMode).
+    Adding AA veneer (4 bytes, Short) for call to 'OS_CPU_SR_Restore' from mmpf_system.o(EnterSelfSleepMode).
+    Adding AT veneer (8 bytes, Inline) for call to 'PCAM_SetAsyncVideoControl' from pcam_usb.o(.text).
+    Adding AT veneer (8 bytes, Inline) for call to 'AUDIO_Record_Task' from mmpf_audio_task32.o(.text).
+    Adding AT veneer (8 bytes, Inline) for call to 'AbortHandler' from cstartup_ram.o(reset).
+    Adding AT veneer (8 bytes, Inline) for call to 'RTNA_DBG_Str' from mmu32.o(.text).
+    Adding AT veneer (8 bytes, Inline) for call to 'USB_Task_EP1' from mmpf_usb_task32.o(.text).
+    Adding AT veneer (8 bytes, Inline) for call to '__set_errno' from sqrt.o(i.sqrt).
+    Adding AT veneer (8 bytes, Inline) for call to '_printf_int_dec' from _printf_i.o(.ARM.Collect$$_printf_percent$$00000008).
+    Adding AT veneer (8 bytes, Inline) for call to '_printf_charcount' from _printf_n.o(.ARM.Collect$$_printf_percent$$00000001).
+    Adding AT veneer (8 bytes, Inline) for call to '_printf_longlong_dec' from _printf_lli.o(.ARM.Collect$$_printf_percent$$0000000D).
+    Adding AT veneer (8 bytes, Inline) for call to '_printf_int_oct' from _printf_o.o(.ARM.Collect$$_printf_percent$$0000000B).
+    Adding AT veneer (8 bytes, Inline) for call to '_printf_hex_ptr' from _printf_p.o(.ARM.Collect$$_printf_percent$$00000002).
+    Adding AT veneer (8 bytes, Inline) for call to '_printf_char' from _printf_c.o(.ARM.Collect$$_printf_percent$$00000013).
+    Adding AT veneer (8 bytes, Inline) for call to '_printf_wchar' from _printf_lc.o(.ARM.Collect$$_printf_percent$$00000015).
+    Adding AT veneer (8 bytes, Long) for call to '_printf_int_hex' from _printf_x.o(.ARM.Collect$$_printf_percent$$0000000C).
+    Adding AT veneer (8 bytes, Long) for call to '_printf_ll_oct' from _printf_llo.o(.ARM.Collect$$_printf_percent$$00000010).
+    Adding AT veneer (8 bytes, Long) for call to '_printf_ll_hex' from _printf_llx.o(.ARM.Collect$$_printf_percent$$00000011).
+    Adding AT veneer (8 bytes, Long) for call to '_printf_string' from _printf_s.o(.ARM.Collect$$_printf_percent$$00000014).
+    Adding AT veneer (8 bytes, Long) for call to '_printf_wstring' from _printf_ls.o(.ARM.Collect$$_printf_percent$$00000016).
+    Adding AT veneer (8 bytes, Long) for call to 'pcam_usb_preview_stop' from pcam_usb.o(.text).
+    Adding AT veneer (8 bytes, Long) for call to 'pcam_usb_exit' from pcam_usb.o(.text).
+    Adding AT veneer (8 bytes, Long) for call to 'pcam_usb_audio_start' from pcam_usb.o(.text).
+    Adding AT veneer (8 bytes, Long) for call to 'pcam_usb_audio_stop' from pcam_usb.o(.text).
+    Adding AT veneer (8 bytes, Long) for call to 'pcam_usb_set_samplerate' from pcam_usb.o(.text).
+    Adding AT veneer (8 bytes, Long) for call to 'pcam_usb_set_mute' from pcam_usb.o(.text).
+    Adding AT veneer (8 bytes, Long) for call to 'pcam_usb_set_volume' from pcam_usb.o(.text).
+    Adding AT veneer (8 bytes, Long) for call to 'pcam_usb_update_firmware' from pcam_usb.o(.text).
+    Adding AA veneer (4 bytes, Short) for call to '__aeabi_memcpy' from pcam_api.o(.text).
+    Adding AA veneer (4 bytes, Short) for call to '__aeabi_memcpy4' from pcam_api.o(.text).
+    Adding AT veneer (8 bytes, Long) for call to 'MMPF_PCAM_Task' from pcam_task32.o(.text).
+    Adding AT veneer (8 bytes, Long) for call to 'SYS_Task' from sys_task32.o(.text).
+    Adding AT veneer (8 bytes, Long) for call to 'SENSOR_Task' from mmpf_sensor_task32.o(.text).
+    Adding AT veneer (8 bytes, Long) for call to 'MMPF_OS_ReleaseSem' from mmpf_usb_task32.o(.text).
+    Adding AT veneer (8 bytes, Long) for call to 'MMPF_OS_SetSem' from mmpf_usb_task32.o(.text).
+    Adding AT veneer (8 bytes, Long) for call to 'USB_Task_EP2' from mmpf_usb_task32.o(.text).
+    Adding AT veneer (8 bytes, Long) for call to 'MP4VENC_Task' from mmpf_mp4venc_task32.o(.text).
+    Adding AT veneer (8 bytes, Long) for call to 'VidMergr_Task' from mmpf_3gpmgr_task32.o(.text).
+
+39 Veneer(s) (total 296 bytes) added to the image.
+
+==============================================================================
+
+Memory Map of the image
+
+  Image Entry point : 0x01000110
+
+  Load Region TCM_END (Base: 0x00081000, Size: 0x00000000, Max: 0x00000000, ABSOLUTE)
+
+    Execution Region TCM_END (Base: 0x00081000, Size: 0x00000000, Max: 0xffffffff, ABSOLUTE)
+
+    **** No section assigned to this execution region ****
+
+
+
+  Load Region DRAM (Base: 0x01000000, Size: 0x00060a40, Max: 0x00100000, ABSOLUTE)
+
+    Execution Region ALL_ITCM (Base: 0x00000400, Size: 0x00000318, Max: 0x00000c00, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x00000400   0x000000d4   Code   RO         4750    .text               c_5.l(rt_memcpy.o)(c_5.l)
+    0x000004d4   0x00000064   Code   RO         4752    .text               c_5.l(rt_memcpy_w.o)(c_5.l)
+    0x00000538   0x00000178   Code   RO         2063    EnterSelfSleepMode  mmpf_system.o
+    0x000006b0   0x00000038   Code   RO         2292    EnterSelfSleepMode  mmpf_dram.o
+    0x000006e8   0x00000004   Ven    RO         5207    Veneer$$Code        anon$$obj.o
+    0x000006ec   0x00000008   Ven    RO         5208    Veneer$$Code        anon$$obj.o
+    0x000006f4   0x00000004   Ven    RO         5209    Veneer$$Code        anon$$obj.o
+    0x000006f8   0x00000020   Data   RW         2069    EnterSelfSleepMode  mmpf_system.o
+
+
+    Execution Region SRAM_MMU (Base: 0x00100000, Size: 0x00000000, Max: 0xffffffff, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x00100000   0x00000000   Data   RO         5160    linker$$defined$$symbols  anon$$obj.o
+
+
+    Execution Region SRAM_JPG (Base: 0x00104000, Size: 0x00000000, Max: 0xffffffff, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x00104000   0x00000000   Data   RO         5161    linker$$defined$$symbols  anon$$obj.o
+
+
+    Execution Region SRAM_CODE (Base: 0x00114000, Size: 0x00000000, Max: 0xffffffff, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x00114000   0x00000000   Data   RO         5162    linker$$defined$$symbols  anon$$obj.o
+
+
+    Execution Region SRAM_H264 (Base: 0x00126000, Size: 0x00000000, Max: 0xffffffff, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x00126000   0x00000000   Data   RO         5163    linker$$defined$$symbols  anon$$obj.o
+
+
+    Execution Region SRAM_END (Base: 0x00186000, Size: 0x00000000, Max: 0xffffffff, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x00186000   0x00000000   Data   RO         5164    linker$$defined$$symbols  anon$$obj.o
+
+
+    Execution Region ALL_DRAM (Base: 0x01000000, Size: 0x0009386c, Max: 0x00180000, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x01000000   0x00000110   Code   RO         2541    reset               cstartup_ram.o
+    0x01000110   0x00000008   Code   RO         4782  * !!!main             c_5.l(__main.o)(c_5.l)
+    0x01000118   0x0000003c   Code   RO         5165    !!!scatter          c_5.l(__scatter.o)(c_5.l)
+    0x01000154   0x00000028   Code   RO         5167    !!handler_copy      c_5.l(__scatter_copy.o)(c_5.l)
+    0x0100017c   0x0000002c   Code   RO         5169    !!handler_zi        c_5.l(__scatter_zi.o)(c_5.l)
+    0x010001a8   0x00000000   Code   RO         4931    .ARM.Collect$$_printf_percent$$00000000  c_5.l(_printf_percent.o)(c_5.l)
+    0x010001a8   0x00000008   Code   RO         4920    .ARM.Collect$$_printf_percent$$00000001  c_5.l(_printf_n.o)(c_5.l)
+    0x010001b0   0x00000008   Code   RO         4922    .ARM.Collect$$_printf_percent$$00000002  c_5.l(_printf_p.o)(c_5.l)
+    0x010001b8   0x00000008   Code   RO         4927    .ARM.Collect$$_printf_percent$$00000003  c_5.l(_printf_f.o)(c_5.l)
+    0x010001c0   0x00000008   Code   RO         4928    .ARM.Collect$$_printf_percent$$00000004  c_5.l(_printf_e.o)(c_5.l)
+    0x010001c8   0x00000008   Code   RO         4929    .ARM.Collect$$_printf_percent$$00000005  c_5.l(_printf_g.o)(c_5.l)
+    0x010001d0   0x00000008   Code   RO         4930    .ARM.Collect$$_printf_percent$$00000006  c_5.l(_printf_a.o)(c_5.l)
+    0x010001d8   0x0000000c   Code   RO         4935    .ARM.Collect$$_printf_percent$$00000007  c_5.l(_printf_ll.o)(c_5.l)
+    0x010001e4   0x00000008   Code   RO         4924    .ARM.Collect$$_printf_percent$$00000008  c_5.l(_printf_i.o)(c_5.l)
+    0x010001ec   0x00000008   Code   RO         4925    .ARM.Collect$$_printf_percent$$00000009  c_5.l(_printf_d.o)(c_5.l)
+    0x010001f4   0x00000008   Code   RO         4926    .ARM.Collect$$_printf_percent$$0000000A  c_5.l(_printf_u.o)(c_5.l)
+    0x010001fc   0x00000008   Code   RO         4923    .ARM.Collect$$_printf_percent$$0000000B  c_5.l(_printf_o.o)(c_5.l)
+    0x01000204   0x00000008   Code   RO         4921    .ARM.Collect$$_printf_percent$$0000000C  c_5.l(_printf_x.o)(c_5.l)
+    0x0100020c   0x00000008   Code   RO         4932    .ARM.Collect$$_printf_percent$$0000000D  c_5.l(_printf_lli.o)(c_5.l)
+    0x01000214   0x00000008   Code   RO         4933    .ARM.Collect$$_printf_percent$$0000000E  c_5.l(_printf_lld.o)(c_5.l)
+    0x0100021c   0x00000008   Code   RO         4934    .ARM.Collect$$_printf_percent$$0000000F  c_5.l(_printf_llu.o)(c_5.l)
+    0x01000224   0x00000008   Code   RO         4939    .ARM.Collect$$_printf_percent$$00000010  c_5.l(_printf_llo.o)(c_5.l)
+    0x0100022c   0x00000008   Code   RO         4940    .ARM.Collect$$_printf_percent$$00000011  c_5.l(_printf_llx.o)(c_5.l)
+    0x01000234   0x0000000c   Code   RO         4936    .ARM.Collect$$_printf_percent$$00000012  c_5.l(_printf_l.o)(c_5.l)
+    0x01000240   0x00000008   Code   RO         4918    .ARM.Collect$$_printf_percent$$00000013  c_5.l(_printf_c.o)(c_5.l)
+    0x01000248   0x00000008   Code   RO         4919    .ARM.Collect$$_printf_percent$$00000014  c_5.l(_printf_s.o)(c_5.l)
+    0x01000250   0x00000008   Code   RO         4937    .ARM.Collect$$_printf_percent$$00000015  c_5.l(_printf_lc.o)(c_5.l)
+    0x01000258   0x00000008   Code   RO         4938    .ARM.Collect$$_printf_percent$$00000016  c_5.l(_printf_ls.o)(c_5.l)
+    0x01000260   0x00000008   Code   RO         5004    .ARM.Collect$$_printf_percent$$00000017  c_5.l(_printf_percent_end.o)(c_5.l)
+    0x01000268   0x00000006   Code   RO         5040    .ARM.Collect$$libinit$$00000000  c_5.l(libinit.o)(c_5.l)
+    0x0100026e   0x00000000   Code   RO         5057    .ARM.Collect$$libinit$$00000006  c_5.l(libinit2.o)(c_5.l)
+    0x0100026e   0x00000000   Code   RO         5059    .ARM.Collect$$libinit$$00000008  c_5.l(libinit2.o)(c_5.l)
+    0x0100026e   0x00000000   Code   RO         5061    .ARM.Collect$$libinit$$0000000A  c_5.l(libinit2.o)(c_5.l)
+    0x0100026e   0x00000006   Code   RO         5062    .ARM.Collect$$libinit$$0000000B  c_5.l(libinit2.o)(c_5.l)
+    0x01000274   0x00000000   Code   RO         5064    .ARM.Collect$$libinit$$0000000D  c_5.l(libinit2.o)(c_5.l)
+    0x01000274   0x0000000c   Code   RO         5065    .ARM.Collect$$libinit$$0000000E  c_5.l(libinit2.o)(c_5.l)
+    0x01000280   0x00000000   Code   RO         5066    .ARM.Collect$$libinit$$0000000F  c_5.l(libinit2.o)(c_5.l)
+    0x01000280   0x00000000   Code   RO         5068    .ARM.Collect$$libinit$$00000011  c_5.l(libinit2.o)(c_5.l)
+    0x01000280   0x00000000   Code   RO         5070    .ARM.Collect$$libinit$$00000013  c_5.l(libinit2.o)(c_5.l)
+    0x01000280   0x00000000   Code   RO         5072    .ARM.Collect$$libinit$$00000015  c_5.l(libinit2.o)(c_5.l)
+    0x01000280   0x00000000   Code   RO         5074    .ARM.Collect$$libinit$$00000017  c_5.l(libinit2.o)(c_5.l)
+    0x01000280   0x00000000   Code   RO         5076    .ARM.Collect$$libinit$$00000019  c_5.l(libinit2.o)(c_5.l)
+    0x01000280   0x00000000   Code   RO         5078    .ARM.Collect$$libinit$$0000001B  c_5.l(libinit2.o)(c_5.l)
+    0x01000280   0x00000000   Code   RO         5080    .ARM.Collect$$libinit$$0000001D  c_5.l(libinit2.o)(c_5.l)
+    0x01000280   0x00000000   Code   RO         5082    .ARM.Collect$$libinit$$0000001F  c_5.l(libinit2.o)(c_5.l)
+    0x01000280   0x00000000   Code   RO         5084    .ARM.Collect$$libinit$$00000021  c_5.l(libinit2.o)(c_5.l)
+    0x01000280   0x00000000   Code   RO         5088    .ARM.Collect$$libinit$$00000028  c_5.l(libinit2.o)(c_5.l)
+    0x01000280   0x00000000   Code   RO         5090    .ARM.Collect$$libinit$$0000002A  c_5.l(libinit2.o)(c_5.l)
+    0x01000280   0x00000000   Code   RO         5092    .ARM.Collect$$libinit$$0000002C  c_5.l(libinit2.o)(c_5.l)
+    0x01000280   0x00000000   Code   RO         5094    .ARM.Collect$$libinit$$0000002E  c_5.l(libinit2.o)(c_5.l)
+    0x01000280   0x00000002   Code   RO         5095    .ARM.Collect$$libinit$$0000002F  c_5.l(libinit2.o)(c_5.l)
+    0x01000282   0x00000002   Code   RO         5135    .ARM.Collect$$libshutdown$$00000000  c_5.l(libshutdown.o)(c_5.l)
+    0x01000284   0x00000000   Code   RO         5146    .ARM.Collect$$libshutdown$$00000003  c_5.l(libshutdown2.o)(c_5.l)
+    0x01000284   0x00000000   Code   RO         5149    .ARM.Collect$$libshutdown$$00000006  c_5.l(libshutdown2.o)(c_5.l)
+    0x01000284   0x00000000   Code   RO         5152    .ARM.Collect$$libshutdown$$00000009  c_5.l(libshutdown2.o)(c_5.l)
+    0x01000284   0x00000000   Code   RO         5154    .ARM.Collect$$libshutdown$$0000000B  c_5.l(libshutdown2.o)(c_5.l)
+    0x01000284   0x00000000   Code   RO         5157    .ARM.Collect$$libshutdown$$0000000E  c_5.l(libshutdown2.o)(c_5.l)
+    0x01000284   0x00000002   Code   RO         5158    .ARM.Collect$$libshutdown$$0000000F  c_5.l(libshutdown2.o)(c_5.l)
+    0x01000286   0x00000002   PAD
+    0x01000288   0x00000000   Code   RO         4840    .ARM.Collect$$rtentry$$00000000  c_5.l(rtentry.o)(c_5.l)
+    0x01000288   0x00000000   Code   RO         4970    .ARM.Collect$$rtentry$$00000002  c_5.l(rtentry2.o)(c_5.l)
+    0x01000288   0x00000008   Code   RO         4985    .ARM.Collect$$rtentry$$00000004  c_5.l(rtentry4.o)(c_5.l)
+    0x01000290   0x00000000   Code   RO         4972    .ARM.Collect$$rtentry$$00000009  c_5.l(rtentry2.o)(c_5.l)
+    0x01000290   0x00000004   Code   RO         4973    .ARM.Collect$$rtentry$$0000000A  c_5.l(rtentry2.o)(c_5.l)
+    0x01000294   0x00000000   Code   RO         4975    .ARM.Collect$$rtentry$$0000000C  c_5.l(rtentry2.o)(c_5.l)
+    0x01000294   0x00000028   Code   RO         4976    .ARM.Collect$$rtentry$$0000000D  c_5.l(rtentry2.o)(c_5.l)
+    0x010002bc   0x00000004   Code   RO         5043    .ARM.Collect$$rtexit$$00000000  c_5.l(rtexit.o)(c_5.l)
+    0x010002c0   0x00000000   Code   RO         5099    .ARM.Collect$$rtexit$$00000002  c_5.l(rtexit2.o)(c_5.l)
+    0x010002c0   0x00000004   Code   RO         5100    .ARM.Collect$$rtexit$$00000003  c_5.l(rtexit2.o)(c_5.l)
+    0x010002c4   0x00000008   Code   RO         5101    .ARM.Collect$$rtexit$$00000004  c_5.l(rtexit2.o)(c_5.l)
+    0x010002cc   0x00000598   Code   RO            1    .text               pcam_usb.o
+    0x01000864   0x00000604   Code   RO          279    .text               pcam_api.o
+    0x01000e68   0x000004b8   Code   RO          344    .text               pcam_dfu.o
+    0x01001320   0x00000008   Ven    RO          372    .text               pcam_handler.o
+    0x01001328   0x00001d72   Code   RO          372    .text               pcam_handler.o
+    0x0100309a   0x00000002   PAD
+    0x0100309c   0x00000074   Code   RO          506    .text               pcam_msg.o
+    0x01003110   0x00000024   Code   RO          548    .text               pcam_task32.o
+    0x01003134   0x00000068   Code   RO          567    .text               mmpd_sensor.o
+    0x0100319c   0x0000041c   Code   RO          617    .text               mmpd_system.o
+    0x010035b8   0x00000274   Code   RO          666    .text               mmpd_mp4venc.o
+    0x0100382c   0x00000250   Code   RO          832    .text               mmph_hif.o
+    0x01003a7c   0x000005ac   Code   RO          890    .text               mmps_3gprecd.o
+    0x01004028   0x00000078   Code   RO          983    .text               mmps_sensor.o
+    0x010040a0   0x00000160   Code   RO         1022    .text               mmpf_i2s_ctl.o
+    0x01004200   0x00000314   Code   RO         1046    .text               mmpf_audio_ctl.o
+    0x01004514   0x00000008   Ven    RO         1145    .text               mmpf_audio.o
+    0x0100451c   0x00000064   Code   RO         1145    .text               mmpf_audio.o
+    0x01004580   0x00000004   Code   RO         1169    .text               mmpf_audio_task32.o
+    0x01004584   0x00000264   Code   RO         1212    .text               mmpf_encapi.o
+    0x010047e8   0x00000120   Code   RO         1289    .text               bsp.o
+    0x01004908   0x00000110   Code   RO         1367    .text               mmu32.o
+    0x01004a18   0x00000030   Code   RO         1369    .text               mmu32.o
+    0x01004a48   0x00000044   Code   RO         1370    .text               mmu32.o
+    0x01004a8c   0x000002f0   Code   RO         1372    .text               mmu32.o
+    0x01004d7c   0x000000e8   Code   RO         1505    .text               mmpf_vif.o
+    0x01004e64   0x00000b04   Code   RO         1537    .text               mmpf_display.o
+    0x01005968   0x00000100   Code   RO         1613    .text               mmpf_dma.o
+    0x01005a68   0x0000000c   Code   RO         1615    .text               mmpf_dma.o
+    0x01005a74   0x00000020   Code   RO         1697    .text               mmpf_hif.o
+    0x01005a94   0x00000c04   Code   RO         1714    .text               mmpf_i2cm.o
+    0x01006698   0x00000438   Code   RO         1777    .text               mmpf_pll.o
+    0x01006ad0   0x000000e8   Code   RO         1813    .text               mmpf_rawproc.o
+    0x01006bb8   0x00001080   Code   RO         1983    .text               mmpf_scaler.o
+    0x01007c38   0x00000470   Code   RO         2054    .text               mmpf_system.o
+    0x010080a8   0x00000008   Ven    RO         2060    .text               mmpf_system.o
+    0x010080b0   0x00000068   Code   RO         2060    .text               mmpf_system.o
+    0x01008118   0x00000280   Code   RO         2144    .text               mmpf_timer.o
+    0x01008398   0x000000dc   Code   RO         2185    .text               mmpf_uart.o
+    0x01008474   0x0000035c   Code   RO         2225    .text               mmpf_pio.o
+    0x010087d0   0x000000d8   Code   RO         2253    .text               mmpf_pwm.o
+    0x010088a8   0x00000018   Code   RO         2288    .text               mmpf_dram.o
+    0x010088c0   0x000002ac   Code   RO         2333    .text               mmpf_ibc.o
+    0x01008b6c   0x0000001c   Code   RO         2361    .text               mmpf_icon.o
+    0x01008b88   0x000002c0   Code   RO         2373    .text               mmpf_fctl.o
+    0x01008e48   0x00000300   Code   RO         2411    .text               mmpf_sf.o
+    0x01009148   0x00000370   Code   RO         2513    .text               os_wrap.o
+    0x010094b8   0x00000008   Ven    RO         2547    .text               lib_retina.o
+    0x010094c0   0x00000164   Code   RO         2547    .text               lib_retina.o
+    0x01009624   0x00000334   Code   RO         2648    .text               all_fw32.o
+    0x01009958   0x00000184   Code   RO         2661    .text               sys_task32.o
+    0x01009adc   0x000006e4   Code   RO         2704    .text               mmpf_sensor.o
+    0x0100a1c0   0x00000004   Code   RO         2804    .text               mmpf_sensor_task32.o
+    0x0100a1c4   0x00000008   Ven    RO         2819    .text               mmpf_usb_ctl.o
+    0x0100a1cc   0x00000268   Code   RO         2819    .text               mmpf_usb_ctl.o
+    0x0100a434   0x00000028   Code   RO         2857    .text               mmpf_usbdescr.o
+    0x0100a45c   0x00000e30   Code   RO         2875    .text               mmpf_usbint.o
+    0x0100b28c   0x000014e4   Code   RO         2946    .text               mmpf_usbpccam.o
+    0x0100c770   0x0000001a   Code   RO         2947    .text               mmpf_usbpccam.o
+    0x0100c78a   0x00000002   PAD
+    0x0100c78c   0x000002bc   Code   RO         3016    .text               mmpf_usbpub.o
+    0x0100ca48   0x00000974   Code   RO         3039    .text               mmpf_usbstd.o
+    0x0100d3bc   0x0000026c   Code   RO         3157    .text               mmpf_usbuac.o
+    0x0100d628   0x00001e78   Code   RO         3173    .text               mmpf_usbuvc.o
+    0x0100f4a0   0x0000017c   Code   RO         3331    .text               mmpf_usb_task32.o
+    0x0100f61c   0x00000028   Code   RO         3350    .text               suspend_loop.o
+    0x0100f644   0x000002cc   Code   RO         3389    .text               mmpf_msg.o
+    0x0100f910   0x000009e0   Code   RO         3405    .text               mmpf_usbuvch264.o
+    0x010102f0   0x000000a8   Code   RO         3508    .text               suspend_wakeup32.o
+    0x01010398   0x00000aae   Code   RO         3528    .text               mmpf_usbuvc15h264.o
+    0x01010e46   0x00000002   PAD
+    0x01010e48   0x00000114   Code   RO         3722    .text               mmpf_usbuvc_hw.o
+    0x01010f5c   0x000013b4   Code   RO         3740    .text               mmpf_usbuvc_vs.o
+    0x01012310   0x00001194   Code   RO         3757    .text               mmpf_usbuvc_event.o
+    0x010134a4   0x00000074   Code   RO         3793    .text               mmpf_usbuvc_fdtc.o
+    0x01013518   0x00000004   Code   RO         3809    .text               mmpf_mp4venc_task32.o
+    0x0101351c   0x00000004   Code   RO         3824    .text               mmpf_3gpmgr_task32.o
+    0x01013520   0x00000a50   Code   RO         3839    .text               mmpf_3gpmgr.o
+    0x01013f70   0x00001c6a   Code   RO         3889    .text               mmpf_mp4venc_rc.o
+    0x01015bda   0x00000002   PAD
+    0x01015bdc   0x0000270c   Code   RO         3914    .text               mmpf_mp4venc.o
+    0x010182e8   0x00001e98   Code   RO         3967    .text               mmpf_h264enc.o
+    0x0101a180   0x0000040c   Code   RO         4050    .text               ait_config.o
+    0x0101a58c   0x00000e7c   Code   RO         4102    .text               sensor_mt9t002.o
+    0x0101b408   0x00000554   Code   RO         4134    .text               text_ctl32.o
+    0x0101b95c   0x00000300   Code   RO         4161    .text               hdm_ctl.o
+    0x0101bc5c   0x00000028   Code   RO         4189    .text               faceproc.o
+    0x0101bc84   0x00000020   Code   RO         4191    .text               faceproc.o
+    0x0101bca4   0x00000050   Code   RO         4192    .text               faceproc.o
+    0x0101bcf4   0x00000040   Code   RO         4193    .text               faceproc.o
+    0x0101bd34   0x00000090   Code   RO         4194    .text               faceproc.o
+    0x0101bdc4   0x00000020   Code   RO         4195    .text               faceproc.o
+    0x0101bde4   0x00000108   Code   RO         4196    .text               faceproc.o
+    0x0101beec   0x00000060   Code   RO         4201    .text               faceproc.o
+    0x0101bf4c   0x000000c0   Code   RO         4202    .text               faceproc.o
+    0x0101c00c   0x00000014   Code   RO         4205    .text               faceproc.o
+    0x0101c020   0x0000000c   Code   RO         4206    .text               faceproc.o
+    0x0101c02c   0x00000048   Code   RO         4207    .text               faceproc.o
+    0x0101c074   0x00000050   Code   RO         4413    .text               mxmem.o
+    0x0101c0c4   0x000000cc   Code   RO         4414    .text               mxmem.o
+    0x0101c190   0x00000024   Code   RO         4416    .text               mxmem.o
+    0x0101c1b4   0x000000b8   Code   RO         4417    .text               mxmem.o
+    0x0101c26c   0x00000020   Code   RO         4506    .text               extra.o
+    0x0101c28c   0x00000008   Code   RO         4507    .text               extra.o
+    0x0101c294   0x0000000c   Code   RO         4509    .text               extra.o
+    0x0101c2a0   0x0000000c   Code   RO         4510    .text               extra.o
+    0x0101c2ac   0x00000008   Code   RO         4511    .text               extra.o
+    0x0101c2b4   0x00000580   Code   RO         4560    .text               ucosii_mdk.lib(os_tmr.o)(ucosii_mdk.lib)
+    0x0101c834   0x000008dc   Code   RO         4562    .text               ucosii_mdk.lib(os_core.o)(ucosii_mdk.lib)
+    0x0101d110   0x0000089c   Code   RO         4580    .text               ucosii_mdk.lib(os_flag.o)(ucosii_mdk.lib)
+    0x0101d9ac   0x00000298   Code   RO         4582    .text               ucosii_mdk.lib(os_mem.o)(ucosii_mdk.lib)
+    0x0101dc44   0x000003f0   Code   RO         4584    .text               ucosii_mdk.lib(os_sem.o)(ucosii_mdk.lib)
+    0x0101e034   0x0000091c   Code   RO         4586    .text               ucosii_mdk.lib(os_task.o)(ucosii_mdk.lib)
+    0x0101e950   0x00000124   Code   RO         4588    .text               ucosii_mdk.lib(os_time.o)(ucosii_mdk.lib)
+    0x0101ea74   0x000013f0   Code   RO         4591    .text               GraceV1_ISP.lib(isp_if.o)(GraceV1_ISP.lib)
+    0x0101fe64   0x00000270   Code   RO         4596    .text               eOkaCo48.lib(sdkcom.o)(eOkaCo48.lib)
+    0x010200d4   0x00001328   Code   RO         4599    .text               eOkaoDt50_HP45.lib(sdkdt.o)(eOkaoDt50_HP45.lib)
+    0x010213fc   0x000000b4   Code   RO         4601    .text               ucosii_mdk.lib(os_cpu_c.o)(ucosii_mdk.lib)
+    0x010214b0   0x000032ac   Code   RO         4603    .text               GraceV1_ISP.lib(isp_lib_ctl.o)(GraceV1_ISP.lib)
+    0x0102475c   0x000011f8   Code   RO         4616    .text               GraceV1_ISP.lib(isp_acc_ctl.o)(GraceV1_ISP.lib)
+    0x01025954   0x000005e4   Code   RO         4619    .text               GraceV1_ISP.lib(quicklz.o)(GraceV1_ISP.lib)
+    0x01025f38   0x000002c4   Code   RO         4623    .text               GraceV1_AE.lib(ae.o)(GraceV1_AE.lib)
+    0x010261fc   0x00000080   Code   RO         4625    .text               GraceV1_AF.lib(af.o)(GraceV1_AF.lib)
+    0x0102627c   0x0000008c   Code   RO         4627    .text               GraceV1_AWB.lib(awb.o)(GraceV1_AWB.lib)
+    0x01026308   0x000005e0   Code   RO         4629    .text               eOkaCo48.lib(comfigissquare.o)(eOkaCo48.lib)
+    0x010268e8   0x000003f0   Code   RO         4631    .text               eOkaCo48.lib(comdetectioninfo.o)(eOkaCo48.lib)
+    0x01026cd8   0x00000046   Code   RO         4634    .text               eOkaCo48.lib(comhandle.o)(eOkaCo48.lib)
+    0x01026d1e   0x00000024   Code   RO         4636    .text               eOkaCo48.lib(comimage.o)(eOkaCo48.lib)
+    0x01026d42   0x00000002   PAD
+    0x01026d44   0x0000020c   Code   RO         4638    .text               eOkaCo48.lib(commalloc.o)(eOkaCo48.lib)
+    0x01026f50   0x00000060   Code   RO         4641    .text               eOkaoDt50_HP45.lib(dtaulait.o)(eOkaoDt50_HP45.lib)
+    0x01026fb0   0x000004f4   Code   RO         4643    .text               eOkaoDt50_HP45.lib(dtmint.o)(eOkaoDt50_HP45.lib)
+    0x010274a4   0x00001ab4   Code   RO         4645    .text               GraceV1_AE.lib(ait_ae.o)(GraceV1_AE.lib)
+    0x01028f58   0x00000794   Code   RO         4659    .text               GraceV1_AF.lib(ait_vote_af.o)(GraceV1_AF.lib)
+    0x010296ec   0x00000e6c   Code   RO         4669    .text               GraceV1_AWB.lib(awbv3.o)(GraceV1_AWB.lib)
+    0x0102a558   0x00000110   Code   RO         4674    .text               eOkaCo48.lib(commath.o)(eOkaCo48.lib)
+    0x0102a668   0x000003d4   Code   RO         4677    .text               eOkaoDt50_HP45.lib(dtaulaite.o)(eOkaoDt50_HP45.lib)
+    0x0102aa3c   0x00000a24   Code   RO         4679    .text               eOkaoDt50_HP45.lib(dtmintprocess.o)(eOkaoDt50_HP45.lib)
+    0x0102b460   0x000007dc   Code   RO         4681    .text               eOkaoDt50_HP45.lib(dttarte.o)(eOkaoDt50_HP45.lib)
+    0x0102bc3c   0x000011fa   Code   RO         4683    .text               eOkaoDt50_HP45.lib(dtgateau.o)(eOkaoDt50_HP45.lib)
+    0x0102ce36   0x00000002   PAD
+    0x0102ce38   0x00000eb0   Code   RO         4691    .text               GraceV1_AF.lib(ait_caf.o)(GraceV1_AF.lib)
+    0x0102dce8   0x000003d0   Code   RO         4701    .text               eOkaoDt50_HP45.lib(dttrackingobject.o)(eOkaoDt50_HP45.lib)
+    0x0102e0b8   0x00000408   Code   RO         4703    .text               eOkaoDt50_HP45.lib(dtconfiguretodetect.o)(eOkaoDt50_HP45.lib)
+    0x0102e4c0   0x00000418   Code   RO         4709    .text               eOkaoDt50_HP45.lib(dttarte1dtracking.o)(eOkaoDt50_HP45.lib)
+    0x0102e8d8   0x000001a0   Code   RO         4711    .text               eOkaoDt50_HP45.lib(dttartepostproc.o)(eOkaoDt50_HP45.lib)
+    0x0102ea78   0x00000298   Code   RO         4713    .text               eOkaoDt50_HP45.lib(dtxyconvtbl.o)(eOkaoDt50_HP45.lib)
+    0x0102ed10   0x0000109a   Code   RO         4716    .text               eOkaoDt50_HP45.lib(dtdetectimage.o)(eOkaoDt50_HP45.lib)
+    0x0102fdaa   0x00000002   PAD
+    0x0102fdac   0x0000088a   Code   RO         4719    .text               eOkaoDt50_HP45.lib(dtdetector.o)(eOkaoDt50_HP45.lib)
+    0x01030636   0x00000002   PAD
+    0x01030638   0x00000380   Code   RO         4722    .text               eOkaoDt50_HP45.lib(dtlatte.o)(eOkaoDt50_HP45.lib)
+    0x010309b8   0x0000004e   Code   RO         4725    .text               eOkaoDt50_HP45.lib(dtmilkmath.o)(eOkaoDt50_HP45.lib)
+    0x01030a06   0x00000002   PAD
+    0x01030a08   0x000006e4   Code   RO         4728    .text               eOkaoDt50_HP45.lib(dtpostproc.o)(eOkaoDt50_HP45.lib)
+    0x010310ec   0x00000174   Code   RO         4731    .text               eOkaoDt50_HP45.lib(dtmint_math.o)(eOkaoDt50_HP45.lib)
+    0x01031260   0x0000053a   Code   RO         4734    .text               eOkaoDt50_HP45.lib(dtfeature.o)(eOkaoDt50_HP45.lib)
+    0x0103179a   0x00000002   PAD
+    0x0103179c   0x00000004   Code   RO         4738    .text               c_5.l(use_no_semi.o)(c_5.l)
+    0x010317a0   0x000002f0   Code   RO         4742    .text               c_5.l(lludiv5.o)(c_5.l)
+    0x01031a90   0x00000018   Code   RO         4744    .text               c_5.l(llmul.o)(c_5.l)
+    0x01031aa8   0x00000024   Code   RO         4746    .text               c_5.l(_vsprintf.o)(c_5.l)
+    0x01031acc   0x00000010   Code   RO         4754    .text               c_5.l(aeabi_memset.o)(c_5.l)
+    0x01031adc   0x00000040   Code   RO         4756    .text               c_5.l(rt_memclr.o)(c_5.l)
+    0x01031b1c   0x00000054   Code   RO         4758    .text               c_5.l(rt_memclr_w.o)(c_5.l)
+    0x01031b70   0x000000bc   Code   RO         4760    .text               c_5.l(strcmpfast.o)(c_5.l)
+    0x01031c2c   0x00000020   Code   RO         4762    .text               c_5.l(uread4.o)(c_5.l)
+    0x01031c4c   0x00000020   Code   RO         4764    .text               c_5.l(uwrite4.o)(c_5.l)
+    0x01031c6c   0x00000228   Code   RO         4766    .text               c_5.l(aeabi_sdivfast.o)(c_5.l)
+    0x01031e94   0x00000008   Ven    RO         4850    .text               c_5.l(_rserrno.o)(c_5.l)
+    0x01031e9c   0x00000016   Code   RO         4850    .text               c_5.l(_rserrno.o)(c_5.l)
+    0x01031eb2   0x0000004c   Code   RO         4854    .text               c_5.l(_printf_pad.o)(c_5.l)
+    0x01031efe   0x0000002c   Code   RO         4856    .text               c_5.l(_printf_truncate.o)(c_5.l)
+    0x01031f2a   0x00000052   Code   RO         4858    .text               c_5.l(_printf_str.o)(c_5.l)
+    0x01031f7c   0x00000008   Ven    RO         4860    .text               c_5.l(_printf_dec.o)(c_5.l)
+    0x01031f84   0x0000006c   Code   RO         4860    .text               c_5.l(_printf_dec.o)(c_5.l)
+    0x01031ff0   0x00000008   Ven    RO         4862    .text               c_5.l(_printf_charcount.o)(c_5.l)
+    0x01031ff8   0x00000028   Code   RO         4862    .text               c_5.l(_printf_charcount.o)(c_5.l)
+    0x01032020   0x00000030   Code   RO         4864    .text               c_5.l(_printf_char_common.o)(c_5.l)
+    0x01032050   0x0000000a   Code   RO         4866    .text               c_5.l(_sputc.o)(c_5.l)
+    0x0103205a   0x00000002   PAD
+    0x0103205c   0x000000bc   Code   RO         4868    .text               c_5.l(_printf_wctomb.o)(c_5.l)
+    0x01032118   0x00000008   Ven    RO         4871    .text               c_5.l(_printf_longlong_dec.o)(c_5.l)
+    0x01032120   0x00000070   Code   RO         4871    .text               c_5.l(_printf_longlong_dec.o)(c_5.l)
+    0x01032190   0x00000008   Ven    RO         4877    .text               c_5.l(_printf_oct_int_ll.o)(c_5.l)
+    0x01032198   0x00000070   Code   RO         4877    .text               c_5.l(_printf_oct_int_ll.o)(c_5.l)
+    0x01032208   0x00000008   Ven    RO         4897    .text               c_5.l(_printf_hex_int_ll_ptr.o)(c_5.l)
+    0x01032210   0x00000098   Code   RO         4897    .text               c_5.l(_printf_hex_int_ll_ptr.o)(c_5.l)
+    0x010322a8   0x00000194   Code   RO         4915    .text               c_5.l(__printf_flags_ss_wp.o)(c_5.l)
+    0x0103243c   0x00000010   Code   RO         4992    .text               c_5.l(rt_errno_addr_intlibspace.o)(c_5.l)
+    0x0103244c   0x00000098   Code   RO         4994    .text               c_5.l(lludiv10.o)(c_5.l)
+    0x010324e4   0x000000ac   Code   RO         4996    .text               c_5.l(_printf_intcommon.o)(c_5.l)
+    0x01032590   0x00000008   Ven    RO         5000    .text               c_5.l(_printf_char.o)(c_5.l)
+    0x01032598   0x0000002e   Code   RO         5000    .text               c_5.l(_printf_char.o)(c_5.l)
+    0x010325c6   0x00000002   PAD
+    0x010325c8   0x00000008   Ven    RO         5002    .text               c_5.l(_printf_wchar.o)(c_5.l)
+    0x010325d0   0x0000002e   Code   RO         5002    .text               c_5.l(_printf_wchar.o)(c_5.l)
+    0x010325fe   0x00000044   Code   RO         5005    .text               c_5.l(_wcrtomb.o)(c_5.l)
+    0x01032642   0x00000002   PAD
+    0x01032644   0x0000002c   Code   RO         5011    .text               c_5.l(rtudiv10.o)(c_5.l)
+    0x01032670   0x0000000c   Code   RO         5021    .text               c_5.l(libspace.o)(c_5.l)
+    0x0103267c   0x00000060   Code   RO         5024    .text               c_5.l(sys_stackheap_outer.o)(c_5.l)
+    0x010326dc   0x00000014   Code   RO         5026    .text               c_5.l(rt_ctype_table.o)(c_5.l)
+    0x010326f0   0x0000000c   Code   RO         5028    .text               c_5.l(exit.o)(c_5.l)
+    0x010326fc   0x00000010   Code   RO         5048    .text               c_5.l(rt_locale_intlibspace.o)(c_5.l)
+    0x0103270c   0x00000010   Code   RO         5109    .text               c_5.l(rt_fp_status_addr_intlibspace.o)(c_5.l)
+    0x0103271c   0x00000030   Code   RO         4767    .text_udiv          c_5.l(aeabi_sdivfast.o)(c_5.l)
+    0x0103274c   0x000000a4   Code   RO         1142    AIT_IRQ             mmpf_afe_irq.o
+    0x010327f0   0x000000a4   Code   RO         2216    AIT_IRQ             mmpf_dma_irq.o
+    0x01032894   0x00000134   Code   RO         2222    AIT_IRQ             mmpf_timer_irq.o
+    0x010329c8   0x000000a4   Code   RO         2510    AIT_IRQ             mmpf_jpeg_irq.o
+    0x01032a6c   0x00000288   Code   RO         2544    AIT_IRQ             irq.o
+    0x01032cf4   0x00000138   Code   RO         2801    AIT_IRQ             mmpf_sensor_irq.o
+    0x01032e2c   0x000000a4   Code   RO         3328    AIT_IRQ             mmpf_usb_irq.o
+    0x01032ed0   0x000000a4   Code   RO         3806    AIT_IRQ             mmpf_video_irq.o
+    0x01032f74   0x00000094   Code   RO         1286    BSP_A               bsp_a.o
+    0x01033008   0x000001ac   Code   RO         4590    OS_CPU_A            ucosii_mdk.lib(os_cpu_a.o)(ucosii_mdk.lib)
+    0x010331b4   0x00000008   Ven    RO         5184    Veneer$$Code        anon$$obj.o
+    0x010331bc   0x00000008   Ven    RO         5185    Veneer$$Code        anon$$obj.o
+    0x010331c4   0x00000008   Ven    RO         5186    Veneer$$Code        anon$$obj.o
+    0x010331cc   0x00000008   Ven    RO         5187    Veneer$$Code        anon$$obj.o
+    0x010331d4   0x00000008   Ven    RO         5188    Veneer$$Code        anon$$obj.o
+    0x010331dc   0x00000008   Ven    RO         5189    Veneer$$Code        anon$$obj.o
+    0x010331e4   0x00000008   Ven    RO         5190    Veneer$$Code        anon$$obj.o
+    0x010331ec   0x00000008   Ven    RO         5191    Veneer$$Code        anon$$obj.o
+    0x010331f4   0x00000008   Ven    RO         5192    Veneer$$Code        anon$$obj.o
+    0x010331fc   0x00000008   Ven    RO         5193    Veneer$$Code        anon$$obj.o
+    0x01033204   0x00000008   Ven    RO         5194    Veneer$$Code        anon$$obj.o
+    0x0103320c   0x00000008   Ven    RO         5195    Veneer$$Code        anon$$obj.o
+    0x01033214   0x00000008   Ven    RO         5196    Veneer$$Code        anon$$obj.o
+    0x0103321c   0x00000004   Ven    RO         5197    Veneer$$Code        anon$$obj.o
+    0x01033220   0x00000004   Ven    RO         5198    Veneer$$Code        anon$$obj.o
+    0x01033224   0x00000008   Ven    RO         5199    Veneer$$Code        anon$$obj.o
+    0x0103322c   0x00000008   Ven    RO         5200    Veneer$$Code        anon$$obj.o
+    0x01033234   0x00000008   Ven    RO         5201    Veneer$$Code        anon$$obj.o
+    0x0103323c   0x00000008   Ven    RO         5202    Veneer$$Code        anon$$obj.o
+    0x01033244   0x00000008   Ven    RO         5203    Veneer$$Code        anon$$obj.o
+    0x0103324c   0x00000008   Ven    RO         5204    Veneer$$Code        anon$$obj.o
+    0x01033254   0x00000008   Ven    RO         5205    Veneer$$Code        anon$$obj.o
+    0x0103325c   0x00000008   Ven    RO         5206    Veneer$$Code        anon$$obj.o
+    0x01033264   0x00000080   Code   RO         1055    afe_isr             mmpf_audio_ctl.o
+    0x010332e4   0x000000a0   Code   RO         1056    aud_enc             mmpf_audio_ctl.o
+    0x01033384   0x000000f0   Code   RO         1220    aud_timer           mmpf_encapi.o
+    0x01033474   0x000000c8   Code   RO         1221    aud_tx              mmpf_encapi.o
+    0x0103353c   0x00000018   Code   RO         2168    i.RTNA_AIC_Open     mmpf_timer.o
+    0x01033554   0x0000000c   Code   RO         4653    i.__ARM_common_ll_muluu  GraceV1_AE.lib(ait_ae.o)(GraceV1_AE.lib)
+    0x01033560   0x00000020   Code   RO         4610    i.__ARM_common_sdiv_100  GraceV1_ISP.lib(isp_lib_ctl.o)(GraceV1_ISP.lib)
+    0x01033580   0x00000020   Code   RO         4657    i.__ARM_common_sdiv_25  GraceV1_AE.lib(ait_ae.o)(GraceV1_AE.lib)
+    0x010335a0   0x00000020   Code   RO         4663    i.__ARM_common_sdiv_3  GraceV1_AF.lib(ait_vote_af.o)(GraceV1_AF.lib)
+    0x010335c0   0x00000018   Code   RO          321    i.__ARM_common_switch8  pcam_api.o
+    0x010335d8   0x0000001c   Code   RO         4594    i.__ARM_common_udiv_10  GraceV1_ISP.lib(isp_if.o)(GraceV1_ISP.lib)
+    0x010335f4   0x0000001c   Code   RO         4612    i.__ARM_common_udiv_100  GraceV1_ISP.lib(isp_lib_ctl.o)(GraceV1_ISP.lib)
+    0x01033610   0x00000020   Code   RO         4665    i.__ARM_common_udiv_1920  GraceV1_AF.lib(ait_vote_af.o)(GraceV1_AF.lib)
+    0x01033630   0x0000001c   Code   RO         4608    i.__ARM_common_udiv_255  GraceV1_ISP.lib(isp_lib_ctl.o)(GraceV1_ISP.lib)
+    0x0103364c   0x00000020   Code   RO         4667    i.__ARM_common_udiv_2560  GraceV1_AF.lib(ait_vote_af.o)(GraceV1_AF.lib)
+    0x0103366c   0x0000001c   Code   RO         4614    i.__ARM_common_udiv_3  GraceV1_ISP.lib(isp_lib_ctl.o)(GraceV1_ISP.lib)
+    0x01033688   0x0000001c   Code   RO         4650    i.__ARM_common_udiv_30  GraceV1_AE.lib(ait_ae.o)(GraceV1_AE.lib)
+    0x010336a4   0x00000020   Code   RO         4697    i.__ARM_common_udiv_3840  GraceV1_AF.lib(ait_caf.o)(GraceV1_AF.lib)
+    0x010336c4   0x0000001c   Code   RO         4655    i.__ARM_common_udiv_40  GraceV1_AE.lib(ait_ae.o)(GraceV1_AE.lib)
+    0x010336e0   0x00000020   Code   RO         4699    i.__ARM_common_udiv_5120  GraceV1_AF.lib(ait_caf.o)(GraceV1_AF.lib)
+    0x01033700   0x00000030   Code   RO         5017    i.__ARM_fpclassify  m_5s.l(fpclassify.o)(m_5s.l)
+    0x01033730   0x000000f0   Code   RO         5019    i.__kernel_poly     m_5s.l(poly.o)(m_5s.l)
+    0x01033820   0x00000014   Code   RO         5015    i.__mathlib_dbl_underflow  m_5s.l(dunder.o)(m_5s.l)
+    0x01033834   0x0000032c   Code   RO         4959    i.atan              m_5s.l(atan.o)(m_5s.l)
+    0x01033b60   0x000001fc   Code   RO         4821    i.atan2             m_5s.l(atan2.o)(m_5s.l)
+    0x01033d5c   0x0000012c   Code   RO         4829    i.ceil              m_5s.l(ceil.o)(m_5s.l)
+    0x01033e88   0x00000060   Code   RO         4833    i.sqrt              m_5s.l(sqrt.o)(m_5s.l)
+    0x01033ee8   0x00000048   Code   RO         5051    locale$$code        c_5.l(lc_ctype_c.o)(c_5.l)
+    0x01033f30   0x00000088   Code   RO         3723    usbfifo_copy        mmpf_usbuvc_hw.o
+    0x01033fb8   0x00000150   Code   RO         4784    x$fpl$dadd          fz_5s.l(daddsub_clz.o)(fz_5s.l)
+    0x01034108   0x00000010   Code   RO         4945    x$fpl$dcheck1       fz_5s.l(dcheck1.o)(fz_5s.l)
+    0x01034118   0x0000001c   Code   RO         4947    x$fpl$dcmpinf       fz_5s.l(dcmpi.o)(fz_5s.l)
+    0x01034134   0x000002d0   Code   RO         4791    x$fpl$ddiv          fz_5s.l(ddiv.o)(fz_5s.l)
+    0x01034404   0x00000070   Code   RO         4794    x$fpl$dfix          fz_5s.l(dfix.o)(fz_5s.l)
+    0x01034474   0x00000070   Code   RO         4798    x$fpl$dfixu         fz_5s.l(dfixu.o)(fz_5s.l)
+    0x010344e4   0x00000034   Code   RO         4803    x$fpl$dflt          fz_5s.l(dflt_clz.o)(fz_5s.l)
+    0x01034518   0x0000002c   Code   RO         4802    x$fpl$dfltu         fz_5s.l(dflt_clz.o)(fz_5s.l)
+    0x01034544   0x00000094   Code   RO         4808    x$fpl$dleqf         fz_5s.l(dleqf.o)(fz_5s.l)
+    0x010345d8   0x00000178   Code   RO         4810    x$fpl$dmul          fz_5s.l(dmul.o)(fz_5s.l)
+    0x01034750   0x000000b8   Code   RO         4949    x$fpl$dnaninf       fz_5s.l(dnaninf.o)(fz_5s.l)
+    0x01034808   0x00000010   Code   RO         4951    x$fpl$dretinf       fz_5s.l(dretinf.o)(fz_5s.l)
+    0x01034818   0x0000008c   Code   RO         4953    x$fpl$drleqf        fz_5s.l(drleqf.o)(fz_5s.l)
+    0x010348a4   0x00000018   Code   RO         4785    x$fpl$drsb          fz_5s.l(daddsub_clz.o)(fz_5s.l)
+    0x010348bc   0x00000200   Code   RO         4955    x$fpl$dsqrt         fz_5s.l(dsqrt_noumaal.o)(fz_5s.l)
+    0x01034abc   0x00000200   Code   RO         4786    x$fpl$dsub          fz_5s.l(daddsub_clz.o)(fz_5s.l)
+    0x01034cbc   0x00000014   Code   RO         5096    x$fpl$fpinit        fz_5s.l(fpinit.o)(fz_5s.l)
+    0x01034cd0   0x00000074   Code   RO         5013    x$fpl$retnan        fz_5s.l(retnan.o)(fz_5s.l)
+    0x01034d44   0x0000006c   Code   RO         4815    x$fpl$scalbn        fz_5s.l(scalbn.o)(fz_5s.l)
+    0x01034db0   0x0000003c   Code   RO         5041    x$fpl$trapveneer    fz_5s.l(trapv.o)(fz_5s.l)
+    0x01034dec   0x00000000   Code   RO         4957    x$fpl$usenofp       fz_5s.l(usenofp.o)(fz_5s.l)
+    0x01034dec   0x00000026   Data   RO           15    .constdata          pcam_usb.o
+    0x01034e12   0x00000002   PAD
+    0x01034e14   0x00000002   Data   RO          380    .constdata          pcam_handler.o
+    0x01034e16   0x00000180   Data   RO         2955    .constdata          mmpf_usbpccam.o
+    0x01034f96   0x00000002   PAD
+    0x01034f98   0x00000008   Data   RO         3195    .constdata          mmpf_usbuvc.o
+    0x01034fa0   0x00000008   Data   RO         3196    .constdata          mmpf_usbuvc.o
+    0x01034fa8   0x00000008   Data   RO         3197    .constdata          mmpf_usbuvc.o
+    0x01034fb0   0x00000008   Data   RO         3198    .constdata          mmpf_usbuvc.o
+    0x01034fb8   0x00000008   Data   RO         3199    .constdata          mmpf_usbuvc.o
+    0x01034fc0   0x00000028   Data   RO         3413    .constdata          mmpf_usbuvch264.o
+    0x01034fe8   0x0000004e   Data   RO         3892    .constdata          mmpf_mp4venc_rc.o
+    0x01035036   0x00003494   Data   RO         4105    .constdata          sensor_mt9t002.o
+    0x010384ca   0x00000002   PAD
+    0x010384cc   0x00000014   Data   RO         4420    .constdata          mxmem.o
+    0x010384e0   0x00000100   Data   RO         4569    .constdata          ucosii_mdk.lib(os_core.o)(ucosii_mdk.lib)
+    0x010385e0   0x00000100   Data   RO         4597    .constdata          eOkaCo48.lib(sdkcom.o)(eOkaCo48.lib)
+    0x010386e0   0x000000f6   Data   RO         4605    .constdata          GraceV1_ISP.lib(isp_lib_ctl.o)(GraceV1_ISP.lib)
+    0x010387d6   0x00000002   PAD
+    0x010387d8   0x00000040   Data   RO         4620    .constdata          GraceV1_ISP.lib(quicklz.o)(GraceV1_ISP.lib)
+    0x01038818   0x00000134   Data   RO         4632    .constdata          eOkaCo48.lib(comdetectioninfo.o)(eOkaCo48.lib)
+    0x0103894c   0x00000020   Data   RO         4647    .constdata          GraceV1_AE.lib(ait_ae.o)(GraceV1_AE.lib)
+    0x0103896c   0x00000070   Data   RO         4671    .constdata          GraceV1_AWB.lib(awbv3.o)(GraceV1_AWB.lib)
+    0x010389dc   0x00000101   Data   RO         4675    .constdata          eOkaCo48.lib(commath.o)(eOkaCo48.lib)
+    0x01038add   0x00000003   PAD
+    0x01038ae0   0x000003c0   Data   RO         4684    .constdata          eOkaoDt50_HP45.lib(dtgateau.o)(eOkaoDt50_HP45.lib)
+    0x01038ea0   0x000054d8   Data   RO         4685    .constdata          eOkaoDt50_HP45.lib(dtgateau.o)(eOkaoDt50_HP45.lib)
+    0x0103e378   0x00010418   Data   RO         4686    .constdata          eOkaoDt50_HP45.lib(dtgateau.o)(eOkaoDt50_HP45.lib)
+    0x0104e790   0x0000c4f8   Data   RO         4687    .constdata          eOkaoDt50_HP45.lib(dtgateau.o)(eOkaoDt50_HP45.lib)
+    0x0105ac88   0x000007f8   Data   RO         4688    .constdata          eOkaoDt50_HP45.lib(dtgateau.o)(eOkaoDt50_HP45.lib)
+    0x0105b480   0x00000ba0   Data   RO         4689    .constdata          eOkaoDt50_HP45.lib(dtgateau.o)(eOkaoDt50_HP45.lib)
+    0x0105c020   0x00000030   Data   RO         4693    .constdata          GraceV1_AF.lib(ait_caf.o)(GraceV1_AF.lib)
+    0x0105c050   0x00000780   Data   RO         4705    .constdata          eOkaoDt50_HP45.lib(dtmintsenario.o)(eOkaoDt50_HP45.lib)
+    0x0105c7d0   0x00000270   Data   RO         4706    .constdata          eOkaoDt50_HP45.lib(dtmintsenario.o)(eOkaoDt50_HP45.lib)
+    0x0105ca40   0x00000004   Data   RO         4707    .constdata          eOkaoDt50_HP45.lib(dtmintsenario.o)(eOkaoDt50_HP45.lib)
+    0x0105ca44   0x00000004   Data   RO         4708    .constdata          eOkaoDt50_HP45.lib(dtmintsenario.o)(eOkaoDt50_HP45.lib)
+    0x0105ca48   0x00000010   Data   RO         4714    .constdata          eOkaoDt50_HP45.lib(dtxyconvtbl.o)(eOkaoDt50_HP45.lib)
+    0x0105ca58   0x00000200   Data   RO         4717    .constdata          eOkaoDt50_HP45.lib(dtdetectimage.o)(eOkaoDt50_HP45.lib)
+    0x0105cc58   0x00000048   Data   RO         4720    .constdata          eOkaoDt50_HP45.lib(dtdetector.o)(eOkaoDt50_HP45.lib)
+    0x0105cca0   0x00000048   Data   RO         4723    .constdata          eOkaoDt50_HP45.lib(dtlatte.o)(eOkaoDt50_HP45.lib)
+    0x0105cce8   0x000000b6   Data   RO         4726    .constdata          eOkaoDt50_HP45.lib(dtmilkmath.o)(eOkaoDt50_HP45.lib)
+    0x0105cd9e   0x00000002   PAD
+    0x0105cda0   0x00000018   Data   RO         4729    .constdata          eOkaoDt50_HP45.lib(dtpostproc.o)(eOkaoDt50_HP45.lib)
+    0x0105cdb8   0x0000005b   Data   RO         4732    .constdata          eOkaoDt50_HP45.lib(dtmint_math.o)(eOkaoDt50_HP45.lib)
+    0x0105ce13   0x00000001   PAD
+    0x0105ce14   0x00000008   Data   RO         4869    .constdata          c_5.l(_printf_wctomb.o)(c_5.l)
+    0x0105ce1c   0x00000028   Data   RO         4898    .constdata          c_5.l(_printf_hex_int_ll_ptr.o)(c_5.l)
+    0x0105ce44   0x00000011   Data   RO         4916    .constdata          c_5.l(__printf_flags_ss_wp.o)(c_5.l)
+    0x0105ce55   0x00000003   PAD
+    0x0105ce58   0x00000098   Data   RO         4960    .constdata          m_5s.l(atan.o)(m_5s.l)
+    0x0105cef0   0x00000008   Data   RO         4968    .constdata          m_5s.l(qnan.o)(m_5s.l)
+    0x0105cef8   0x00000030   Data   RO         5159    Region$$Table       anon$$obj.o
+    0x0105cf28   0x00000110   Data   RO         5050    locale$$data        c_5.l(lc_ctype_c.o)(c_5.l)
+    0x0105d038   0x00000004   Data   RW           16    .data               pcam_usb.o
+    0x0105d03c   0x00000004   Data   RW           17    .data               pcam_usb.o
+    0x0105d040   0x00000004   Data   RW           18    .data               pcam_usb.o
+    0x0105d044   0x00000004   Data   RW           19    .data               pcam_usb.o
+    0x0105d048   0x00000004   Data   RW           20    .data               pcam_usb.o
+    0x0105d04c   0x00000004   Data   RW           21    .data               pcam_usb.o
+    0x0105d050   0x00000004   Data   RW           22    .data               pcam_usb.o
+    0x0105d054   0x00000004   Data   RW           23    .data               pcam_usb.o
+    0x0105d058   0x0000000a   Data   RW           24    .data               pcam_usb.o
+    0x0105d062   0x00000002   PAD
+    0x0105d064   0x00000004   Data   RW           25    .data               pcam_usb.o
+    0x0105d068   0x00000058   Data   RW          285    .data               pcam_api.o
+    0x0105d0c0   0x00000010   Data   RW          346    .data               pcam_dfu.o
+    0x0105d0d0   0x00000019   Data   RW          381    .data               pcam_handler.o
+    0x0105d0e9   0x00000003   PAD
+    0x0105d0ec   0x00000004   Data   RW          550    .data               pcam_task32.o
+    0x0105d0f0   0x00000034   Data   RW          620    .data               mmpd_system.o
+    0x0105d124   0x00000008   Data   RW          675    .data               mmpd_mp4venc.o
+    0x0105d12c   0x00000014   Data   RW          676    .data               mmpd_mp4venc.o
+    0x0105d140   0x00000068   Data   RW          839    .data               mmph_hif.o
+    0x0105d1a8   0x00000002   Data   RW          895    .data               mmps_3gprecd.o
+    0x0105d1aa   0x00000002   PAD
+    0x0105d1ac   0x00000004   Data   RW          896    .data               mmps_3gprecd.o
+    0x0105d1b0   0x0000000a   Data   RW          989    .data               mmps_sensor.o
+    0x0105d1ba   0x00000002   PAD
+    0x0105d1bc   0x00000014   Data   RW         1058    .data               mmpf_audio_ctl.o
+    0x0105d1d0   0x00000004   Data   RW         1146    .data               mmpf_audio.o
+    0x0105d1d4   0x00000004   Data   RW         1147    .data               mmpf_audio.o
+    0x0105d1d8   0x00000018   Data   RW         1222    .data               mmpf_encapi.o
+    0x0105d1f0   0x00000010   Data   RW         1294    .data               bsp.o
+    0x0105d200   0x00000010   Data   RW         1374    .data               mmu32.o
+    0x0105d210   0x00000002   Data   RW         1508    .data               mmpf_vif.o
+    0x0105d212   0x00000002   PAD
+    0x0105d214   0x00000024   Data   RW         1547    .data               mmpf_display.o
+    0x0105d238   0x00000002   Data   RW         1548    .data               mmpf_display.o
+    0x0105d23a   0x00000002   Data   RW         1549    .data               mmpf_display.o
+    0x0105d23c   0x00000001   Data   RW         1550    .data               mmpf_display.o
+    0x0105d23d   0x00000001   Data   RW         1555    .data               mmpf_display.o
+    0x0105d23e   0x00000001   Data   RW         1556    .data               mmpf_display.o
+    0x0105d23f   0x00000001   PAD
+    0x0105d240   0x00000004   Data   RW         1557    .data               mmpf_display.o
+    0x0105d244   0x00000020   Data   RW         1617    .data               mmpf_dma.o
+    0x0105d264   0x00000004   Data   RW         1698    .data               mmpf_hif.o
+    0x0105d268   0x0000002a   Data   RW         1722    .data               mmpf_i2cm.o
+    0x0105d292   0x00000002   PAD
+    0x0105d294   0x000000cb   Data   RW         1780    .data               mmpf_pll.o
+    0x0105d35f   0x00000001   PAD
+    0x0105d360   0x0000003c   Data   RW         1838    .data               mmpf_rawproc.o
+    0x0105d39c   0x00000026   Data   RW         1992    .data               mmpf_scaler.o
+    0x0105d3c2   0x00000016   Data   RW         2065    .data               mmpf_system.o
+    0x0105d3d8   0x0000000e   Data   RW         2066    .data               mmpf_system.o
+    0x0105d3e6   0x00000001   Data   RW         2067    .data               mmpf_system.o
+    0x0105d3e7   0x00000007   Data   RW         2148    .data               mmpf_timer.o
+    0x0105d3ee   0x00000002   PAD
+    0x0105d3f0   0x00000018   Data   RW         2229    .data               mmpf_pio.o
+    0x0105d408   0x00000001   Data   RW         2257    .data               mmpf_pwm.o
+    0x0105d409   0x00000002   Data   RW         2295    .data               mmpf_dram.o
+    0x0105d40b   0x00000004   Data   RW         2337    .data               mmpf_ibc.o
+    0x0105d40f   0x00000001   PAD
+    0x0105d410   0x00000010   Data   RW         2426    .data               mmpf_sf.o
+    0x0105d420   0x00000001   Data   RW         2516    .data               os_wrap.o
+    0x0105d421   0x00000003   PAD
+    0x0105d424   0x00000004   Data   RW         2560    .data               lib_retina.o
+    0x0105d428   0x00000010   Data   RW         2665    .data               sys_task32.o
+    0x0105d438   0x00000024   Data   RW         2714    .data               mmpf_sensor.o
+    0x0105d45c   0x00000002   Data   RW         2717    .data               mmpf_sensor.o
+    0x0105d45e   0x00000002   Data   RW         2718    .data               mmpf_sensor.o
+    0x0105d460   0x00000002   Data   RW         2719    .data               mmpf_sensor.o
+    0x0105d462   0x00000002   Data   RW         2720    .data               mmpf_sensor.o
+    0x0105d464   0x00000002   Data   RW         2722    .data               mmpf_sensor.o
+    0x0105d466   0x00000001   Data   RW         2723    .data               mmpf_sensor.o
+    0x0105d467   0x0000149d   Data   RW         2858    .data               mmpf_usbdescr.o
+    0x0105e904   0x00000048   Data   RW         2885    .data               mmpf_usbint.o
+    0x0105e94c   0x00000002   Data   RW         2886    .data               mmpf_usbint.o
+    0x0105e94e   0x00000002   PAD
+    0x0105e950   0x00000004   Data   RW         2956    .data               mmpf_usbpccam.o
+    0x0105e954   0x00000044   Data   RW         2957    .data               mmpf_usbpccam.o
+    0x0105e998   0x00000001   Data   RW         2958    .data               mmpf_usbpccam.o
+    0x0105e999   0x00000003   PAD
+    0x0105e99c   0x00000004   Data   RW         2959    .data               mmpf_usbpccam.o
+    0x0105e9a0   0x0000008c   Data   RW         3019    .data               mmpf_usbpub.o
+    0x0105ea2c   0x00000002   Data   RW         3060    .data               mmpf_usbstd.o
+    0x0105ea2e   0x00000002   PAD
+    0x0105ea30   0x00000070   Data   RW         3158    .data               mmpf_usbuac.o
+    0x0105eaa0   0x000004a8   Data   RW         3200    .data               mmpf_usbuvc.o
+    0x0105ef48   0x0000009c   Data   RW         3203    .data               mmpf_usbuvc.o
+    0x0105efe4   0x00000001   Data   RW         3213    .data               mmpf_usbuvc.o
+    0x0105efe5   0x00000001   Data   RW         3214    .data               mmpf_usbuvc.o
+    0x0105efe6   0x00000001   Data   RW         3215    .data               mmpf_usbuvc.o
+    0x0105efe7   0x00000001   Data   RW         3216    .data               mmpf_usbuvc.o
+    0x0105efe8   0x00000001   Data   RW         3217    .data               mmpf_usbuvc.o
+    0x0105efe9   0x00000003   PAD
+    0x0105efec   0x00000008   Data   RW         3334    .data               mmpf_usb_task32.o
+    0x0105eff4   0x0000000c   Data   RW         3351    .data               suspend_loop.o
+    0x0105f000   0x00000010   Data   RW         3391    .data               mmpf_msg.o
+    0x0105f010   0x00000003   Data   RW         3414    .data               mmpf_usbuvch264.o
+    0x0105f013   0x00000003   Data   RW         3415    .data               mmpf_usbuvch264.o
+    0x0105f016   0x00000003   Data   RW         3416    .data               mmpf_usbuvch264.o
+    0x0105f019   0x00000089   Data   RW         3417    .data               mmpf_usbuvch264.o
+    0x0105f0a2   0x00000002   Data   RW         3418    .data               mmpf_usbuvch264.o
+    0x0105f0a4   0x00000004   Data   RW         3419    .data               mmpf_usbuvch264.o
+    0x0105f0a8   0x00000004   Data   RW         3420    .data               mmpf_usbuvch264.o
+    0x0105f0ac   0x00000002   Data   RW         3421    .data               mmpf_usbuvch264.o
+    0x0105f0ae   0x00000002   PAD
+    0x0105f0b0   0x00000020   Data   RW         3422    .data               mmpf_usbuvch264.o
+    0x0105f0d0   0x00000020   Data   RW         3423    .data               mmpf_usbuvch264.o
+    0x0105f0f0   0x00000020   Data   RW         3424    .data               mmpf_usbuvch264.o
+    0x0105f110   0x00000020   Data   RW         3425    .data               mmpf_usbuvch264.o
+    0x0105f130   0x00000020   Data   RW         3426    .data               mmpf_usbuvch264.o
+    0x0105f150   0x00000020   Data   RW         3427    .data               mmpf_usbuvch264.o
+    0x0105f170   0x00000020   Data   RW         3428    .data               mmpf_usbuvch264.o
+    0x0105f190   0x00000020   Data   RW         3429    .data               mmpf_usbuvch264.o
+    0x0105f1b0   0x00000020   Data   RW         3431    .data               mmpf_usbuvch264.o
+    0x0105f1d0   0x00000020   Data   RW         3432    .data               mmpf_usbuvch264.o
+    0x0105f1f0   0x00000020   Data   RW         3433    .data               mmpf_usbuvch264.o
+    0x0105f210   0x00000001   Data   RW         3509    .data               suspend_wakeup32.o
+    0x0105f211   0x00000003   PAD
+    0x0105f214   0x00000004   Data   RW         3511    .data               suspend_wakeup32.o
+    0x0105f218   0x00000138   Data   RW         3579    .data               mmpf_usbuvc15h264.o
+    0x0105f350   0x00000022   Data   RW         3742    .data               mmpf_usbuvc_vs.o
+    0x0105f372   0x00000006   PAD
+    0x0105f378   0x00000639   Data   RW         3759    .data               mmpf_usbuvc_event.o
+    0x0105f9b1   0x00000003   PAD
+    0x0105f9b4   0x00000030   Data   RW         3850    .data               mmpf_3gpmgr.o
+    0x0105f9e4   0x00000020   Data   RW         3893    .data               mmpf_mp4venc_rc.o
+    0x0105fa04   0x00000018   Data   RW         3922    .data               mmpf_mp4venc.o
+    0x0105fa1c   0x000000b4   Data   RW         3978    .data               mmpf_h264enc.o
+    0x0105fad0   0x00000004   Data   RW         4041    .data               ait_bsp.o
+    0x0105fad4   0x00000004   Data   RW         4080    .data               config_fw.o
+    0x0105fad8   0x000003d2   Data   RW         4106    .data               sensor_mt9t002.o
+    0x0105feaa   0x00000002   PAD
+    0x0105feac   0x000000bc   Data   RW         4107    .data               sensor_mt9t002.o
+    0x0105ff68   0x00000004   Data   RW         4109    .data               sensor_mt9t002.o
+    0x0105ff6c   0x00000001   Data   RW         4137    .data               text_ctl32.o
+    0x0105ff6d   0x00000003   PAD
+    0x0105ff70   0x0000030c   Data   RW         4138    .data               text_ctl32.o
+    0x0106027c   0x000001cc   Data   RW         4222    .data               faceproc.o
+    0x01060448   0x00000014   Data   RW         4421    .data               mxmem.o
+    0x0106045c   0x00000008   Data   RW         4512    .data               extra.o
+    0x01060464   0x00000030   Data   RW         4570    .data               ucosii_mdk.lib(os_core.o)(ucosii_mdk.lib)
+    0x01060494   0x00000004   Data   RW         4571    .data               ucosii_mdk.lib(os_core.o)(ucosii_mdk.lib)
+    0x01060498   0x00000004   Data   RW         4572    .data               ucosii_mdk.lib(os_core.o)(ucosii_mdk.lib)
+    0x0106049c   0x00000002   Data   RW         4573    .data               ucosii_mdk.lib(os_core.o)(ucosii_mdk.lib)
+    0x0106049e   0x00000002   Data   RW         4574    .data               ucosii_mdk.lib(os_core.o)(ucosii_mdk.lib)
+    0x010604a0   0x00000004   Data   RW         4575    .data               ucosii_mdk.lib(os_core.o)(ucosii_mdk.lib)
+    0x010604a4   0x00000004   Data   RW         4576    .data               ucosii_mdk.lib(os_core.o)(ucosii_mdk.lib)
+    0x010604a8   0x00000004   Data   RW         4577    .data               ucosii_mdk.lib(os_core.o)(ucosii_mdk.lib)
+    0x010604ac   0x00000004   Data   RW         4578    .data               ucosii_mdk.lib(os_core.o)(ucosii_mdk.lib)
+    0x010604b0   0x000000d2   Data   RW         4606    .data               GraceV1_ISP.lib(isp_lib_ctl.o)(GraceV1_ISP.lib)
+    0x01060582   0x00000018   Data   RW         4622    .data               GraceV1_ISP.lib(isp_ver.o)(GraceV1_ISP.lib)
+    0x0106059a   0x00000002   PAD
+    0x0106059c   0x0000001c   Data   RW         4648    .data               GraceV1_AE.lib(ait_ae.o)(GraceV1_AE.lib)
+    0x010605b8   0x00000018   Data   RW         4661    .data               GraceV1_AF.lib(ait_vote_af.o)(GraceV1_AF.lib)
+    0x010605d0   0x00000018   Data   RW         4672    .data               GraceV1_AWB.lib(awbv3.o)(GraceV1_AWB.lib)
+    0x010605e8   0x00000094   Data   RW         4695    .data               GraceV1_AF.lib(ait_caf.o)(GraceV1_AF.lib)
+    0x0106067c   0x000000a8   Data   RW         2540    C$$stack            cstartup_ram.o
+    0x01060724   0x00000004   Data   RW         1064    afe_isr             mmpf_audio_ctl.o
+    0x01060728   0x0000000e   Zero   RW          379    .bss                pcam_handler.o
+    0x01060736   0x00000002   PAD
+    0x01060738   0x00002000   Zero   RW          549    .bss                pcam_task32.o
+    0x01062738   0x000001ec   Zero   RW          894    .bss                mmps_3gprecd.o
+    0x01062924   0x000000a8   Zero   RW          988    .bss                mmps_sensor.o
+    0x010629cc   0x00000024   Zero   RW         1057    .bss                mmpf_audio_ctl.o
+    0x010629f0   0x00004000   Zero   RW         1170    .bss                mmpf_audio_task32.o
+    0x010669f0   0x00000820   Zero   RW         1293    .bss                bsp.o
+    0x01067210   0x0000009c   Zero   RW         1540    .bss                mmpf_display.o
+    0x010672ac   0x0000000c   Zero   RW         1541    .bss                mmpf_display.o
+    0x010672b8   0x0000000c   Zero   RW         1542    .bss                mmpf_display.o
+    0x010672c4   0x0000000c   Zero   RW         1543    .bss                mmpf_display.o
+    0x010672d0   0x00000010   Zero   RW         1721    .bss                mmpf_i2cm.o
+    0x010672e0   0x0000002c   Zero   RW         1779    .bss                mmpf_pll.o
+    0x0106730c   0x00000080   Zero   RW         1836    .bss                mmpf_rawproc.o
+    0x0106738c   0x000000b0   Zero   RW         1991    .bss                mmpf_scaler.o
+    0x0106743c   0x00001000   Zero   RW         2064    .bss                mmpf_system.o
+    0x0106843c   0x0000000c   Zero   RW         2147    .bss                mmpf_timer.o
+    0x01068448   0x00000210   Zero   RW         2228    .bss                mmpf_pio.o
+    0x01068658   0x00000030   Zero   RW         2336    .bss                mmpf_ibc.o
+    0x01068688   0x0000012c   Zero   RW         2376    .bss                mmpf_fctl.o
+    0x010687b4   0x00000084   Zero   RW         2515    .bss                os_wrap.o
+    0x01068838   0x00000600   Zero   RW         2805    .bss                mmpf_sensor_task32.o
+    0x01068e38   0x00000016   Zero   RW         2884    .bss                mmpf_usbint.o
+    0x01068e4e   0x00000002   PAD
+    0x01068e50   0x00000b40   Zero   RW         2954    .bss                mmpf_usbpccam.o
+    0x01069990   0x000000b1   Zero   RW         3191    .bss                mmpf_usbuvc.o
+    0x01069a41   0x00000003   PAD
+    0x01069a44   0x00000078   Zero   RW         3193    .bss                mmpf_usbuvc.o
+    0x01069abc   0x00002580   Zero   RW         3332    .bss                mmpf_usb_task32.o
+    0x0106c03c   0x00001000   Zero   RW         3333    .bss                mmpf_usb_task32.o
+    0x0106d03c   0x00000828   Zero   RW         3390    .bss                mmpf_msg.o
+    0x0106d864   0x0000000a   Zero   RW         3412    .bss                mmpf_usbuvch264.o
+    0x0106d86e   0x0000000c   Zero   RW         3741    .bss                mmpf_usbuvc_vs.o
+    0x0106d87a   0x00000002   PAD
+    0x0106d87c   0x00000600   Zero   RW         3810    .bss                mmpf_mp4venc_task32.o
+    0x0106de7c   0x00001000   Zero   RW         3825    .bss                mmpf_3gpmgr_task32.o
+    0x0106ee7c   0x00000fe0   Zero   RW         3849    .bss                mmpf_3gpmgr.o
+    0x0106fe5c   0x00000004   PAD
+    0x0106fe60   0x00001ec0   Zero   RW         3891    .bss                mmpf_mp4venc_rc.o
+    0x01071d20   0x0000005c   Zero   RW         3920    .bss                mmpf_mp4venc.o
+    0x01071d7c   0x0000c5b8   Zero   RW         3977    .bss                mmpf_h264enc.o
+    0x0107e334   0x0000048c   Zero   RW         4053    .bss                ait_config.o
+    0x0107e7c0   0x00000100   Zero   RW         4136    .bss                text_ctl32.o
+    0x0107e8c0   0x00011f70   Zero   RW         4163    .bss                hdm_ctl.o
+    0x01090830   0x00000524   Zero   RW         4220    .bss                faceproc.o
+    0x01090d54   0x00000a24   Zero   RW         4563    .bss                ucosii_mdk.lib(os_core.o)(ucosii_mdk.lib)
+    0x01091778   0x0000008c   Zero   RW         4564    .bss                ucosii_mdk.lib(os_core.o)(ucosii_mdk.lib)
+    0x01091804   0x000000b4   Zero   RW         4565    .bss                ucosii_mdk.lib(os_core.o)(ucosii_mdk.lib)
+    0x010918b8   0x000002c0   Zero   RW         4566    .bss                ucosii_mdk.lib(os_core.o)(ucosii_mdk.lib)
+    0x01091b78   0x00000200   Zero   RW         4567    .bss                ucosii_mdk.lib(os_core.o)(ucosii_mdk.lib)
+    0x01091d78   0x00000040   Zero   RW         4568    .bss                ucosii_mdk.lib(os_core.o)(ucosii_mdk.lib)
+    0x01091db8   0x00000008   PAD
+    0x01091dc0   0x00000298   Zero   RW         4592    .bss                GraceV1_ISP.lib(isp_if.o)(GraceV1_ISP.lib)
+    0x01092058   0x00000028   PAD
+    0x01092080   0x00000a3a   Zero   RW         4604    .bss                GraceV1_ISP.lib(isp_lib_ctl.o)(GraceV1_ISP.lib)
+    0x01092aba   0x00000006   PAD
+    0x01092ac0   0x000002e0   Zero   RW         4617    .bss                GraceV1_ISP.lib(isp_acc_ctl.o)(GraceV1_ISP.lib)
+    0x01092da0   0x00000020   Zero   RW         4639    .bss                eOkaCo48.lib(commalloc.o)(eOkaCo48.lib)
+    0x01092dc0   0x000001d4   Zero   RW         4646    .bss                GraceV1_AE.lib(ait_ae.o)(GraceV1_AE.lib)
+    0x01092f94   0x0000002c   PAD
+    0x01092fc0   0x00000578   Zero   RW         4660    .bss                GraceV1_AF.lib(ait_vote_af.o)(GraceV1_AF.lib)
+    0x01093538   0x00000008   PAD
+    0x01093540   0x00000148   Zero   RW         4670    .bss                GraceV1_AWB.lib(awbv3.o)(GraceV1_AWB.lib)
+    0x01093688   0x00000038   PAD
+    0x010936c0   0x0000014c   Zero   RW         4692    .bss                GraceV1_AF.lib(ait_caf.o)(GraceV1_AF.lib)
+    0x0109380c   0x00000060   Zero   RW         5022    .bss                c_5.l(libspace.o)(c_5.l)
+
+
+==============================================================================
+
+Image component sizes
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
+
+         0          0          0          4          0          0   ait_bsp.o
+      1036         38          0          0       1164          0   ait_config.o
+       820        204          0          0          0          0   all_fw32.o
+       288         42          0         16       2080          0   bsp.o
+       148         44          0          0          0          0   bsp_a.o
+         0          0          0          4          0          0   config_fw.o
+       272         36          0        168          0          0   cstartup_ram.o
+        72         14          0          8          0          0   extra.o
+      1048        100          0        460       1316          0   faceproc.o
+       768        280          0          0      73584          0   hdm_ctl.o
+       648         32          0          0          0          0   irq.o
+       356         16          0          4          0          0   lib_retina.o
+       628         62          0         28          0          0   mmpd_mp4venc.o
+       104         10          0          0          0          0   mmpd_sensor.o
+      1052         64          0         52          0          0   mmpd_system.o
+      2640        558          0         48       4064          0   mmpf_3gpmgr.o
+         4          0          0          0       4096          0   mmpf_3gpmgr_task32.o
+       164         20          0          0          0          0   mmpf_afe_irq.o
+       100         24          0          8          0          0   mmpf_audio.o
+      1076        164          0         24         36          0   mmpf_audio_ctl.o
+         4          0          0          0      16384          0   mmpf_audio_task32.o
+      2820        348          0         47        192          0   mmpf_display.o
+       268         36          0         32          0          0   mmpf_dma.o
+       164         20          0          0          0          0   mmpf_dma_irq.o
+        80         14          0          2          0          0   mmpf_dram.o
+      1052        168          0         24          0          0   mmpf_encapi.o
+       704         94          0          0        300          0   mmpf_fctl.o
+         0          0          0          0          0          0   mmpf_graphics.o
+      7832        546          0        180      50616          0   mmpf_h264enc.o
+        32          4          0          4          0          0   mmpf_hif.o
+      3076        296          0         42         16          0   mmpf_i2cm.o
+       352        142          0          0          0          0   mmpf_i2s_ctl.o
+         0          0          0          0          0          0   mmpf_i2s_irq.o
+       684         28          0          4         48          0   mmpf_ibc.o
+        28          4          0          0          0          0   mmpf_icon.o
+       164         20          0          0          0          0   mmpf_jpeg_irq.o
+      9996       1250          0         24         92          0   mmpf_mp4venc.o
+      7274        110         78         32       7872          0   mmpf_mp4venc_rc.o
+         4          0          0          0       1536          0   mmpf_mp4venc_task32.o
+       716        122          0         16       2088          0   mmpf_msg.o
+       860         36          0         24        528          0   mmpf_pio.o
+      1080        124          0        203         44          0   mmpf_pll.o
+       216         34          0          1          0          0   mmpf_pwm.o
+       232         48          0         60        128          0   mmpf_rawproc.o
+      4224        144          0         38        176          0   mmpf_scaler.o
+      1764        334          0         47          0          0   mmpf_sensor.o
+       312         24          0          0          0          0   mmpf_sensor_irq.o
+         4          0          0          0       1536          0   mmpf_sensor_task32.o
+       768        122          0         16          0          0   mmpf_sf.o
+      1616        274          0         69       4096          0   mmpf_system.o
+       664        148          0          7         12          0   mmpf_timer.o
+       308         20          0          0          0          0   mmpf_timer_irq.o
+       220         36          0          0          0          0   mmpf_uart.o
+       616        128          0          0          0          0   mmpf_usb_ctl.o
+       164         20          0          0          0          0   mmpf_usb_irq.o
+       380         52          0          8      13696          0   mmpf_usb_task32.o
+        40         18          0       5277          0          0   mmpf_usbdescr.o
+      3632        448          0         74         22          0   mmpf_usbint.o
+      5374        888        384         77       2880          0   mmpf_usbpccam.o
+       700         48          0        140          0          0   mmpf_usbpub.o
+      2420        272          0          2          0          0   mmpf_usbstd.o
+       620         96          0        112          0          0   mmpf_usbuac.o
+      7800       1292         40       1353        297          0   mmpf_usbuvc.o
+      2734        570          0        312          0          0   mmpf_usbuvc15h264.o
+      4500       1392          0       1593          0          0   mmpf_usbuvc_event.o
+       116         12          0          0          0          0   mmpf_usbuvc_fdtc.o
+       412         40          0          0          0          0   mmpf_usbuvc_hw.o
+      5044        526          0         34         12          0   mmpf_usbuvc_vs.o
+      2528        502         40        510         10          0   mmpf_usbuvch264.o
+       164         20          0          0          0          0   mmpf_video_irq.o
+       232         42          0          2          0          0   mmpf_vif.o
+       592        206          0        104          0          0   mmph_hif.o
+      1452        124          0          6        492          0   mmps_3gprecd.o
+       120          8          0         10        168          0   mmps_sensor.o
+      1140         80          0         16          0          0   mmu32.o
+       504        124         20         20          0          0   mxmem.o
+       880        116          0          1        132          0   os_wrap.o
+      1564        180          0         88          0          0   pcam_api.o
+      1208        550          0         16          0          0   pcam_dfu.o
+      7538       1336          2         25         14          0   pcam_handler.o
+       116          4          0          0          0          0   pcam_msg.o
+        36          4          0          4       8192          0   pcam_task32.o
+      1432         48         38         46          0          0   pcam_usb.o
+      3708       1110      13460       1170          0          0   sensor_mt9t002.o
+        40          4          0         12          0          0   suspend_loop.o
+       168          4          0          5          0          0   suspend_wakeup32.o
+       388         96          0         16          0          0   sys_task32.o
+      1364         20          0        781        256          0   text_ctl32.o
+
+    ----------------------------------------------------------------------
+    118708      16722      14116      13560     198188          0   Object Totals
+       232         88         48          0          0          0   (incl. Generated)
+         8          0          6         50         13          2   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Member Name
+
+       708         18          0          0          0          0   ae.o
+      6936        262         32         28        468          0   ait_ae.o
+       128          6          0          0          0          0   af.o
+      3824        180         48        148        332          0   ait_caf.o
+      2036         70          0         24       1400          0   ait_vote_af.o
+       140         12          0          0          0          0   awb.o
+      3692        122        112         24        328          0   awbv3.o
+      4600        174          0          0        736          0   isp_acc_ctl.o
+      5132        240          0          0        664          0   isp_if.o
+     13088        576        246        210       2618          0   isp_lib_ctl.o
+         0          0          0         24          0          0   isp_ver.o
+      1508         36         64          0          0          0   quicklz.o
+         8          0          0          0          0          0   __main.o
+       404          4         17          0          0          0   __printf_flags_ss_wp.o
+        60          8          0          0          0          0   __scatter.o
+        40          0          0          0          0          0   __scatter_copy.o
+        44          0          0          0          0          0   __scatter_zi.o
+         8          0          0          0          0          0   _printf_a.o
+         8          0          0          0          0          0   _printf_c.o
+        54          0          0          0          0          0   _printf_char.o
+        48          6          0          0          0          0   _printf_char_common.o
+        48          0          0          0          0          0   _printf_charcount.o
+         8          0          0          0          0          0   _printf_d.o
+       116         18          0          0          0          0   _printf_dec.o
+         8          0          0          0          0          0   _printf_e.o
+         8          0          0          0          0          0   _printf_f.o
+         8          0          0          0          0          0   _printf_g.o
+       160          4         40          0          0          0   _printf_hex_int_ll_ptr.o
+         8          0          0          0          0          0   _printf_i.o
+       172          0          0          0          0          0   _printf_intcommon.o
+        12          0          0          0          0          0   _printf_l.o
+         8          0          0          0          0          0   _printf_lc.o
+        12          0          0          0          0          0   _printf_ll.o
+         8          0          0          0          0          0   _printf_lld.o
+         8          0          0          0          0          0   _printf_lli.o
+         8          0          0          0          0          0   _printf_llo.o
+         8          0          0          0          0          0   _printf_llu.o
+         8          0          0          0          0          0   _printf_llx.o
+       120         18          0          0          0          0   _printf_longlong_dec.o
+         8          0          0          0          0          0   _printf_ls.o
+         8          0          0          0          0          0   _printf_n.o
+         8          0          0          0          0          0   _printf_o.o
+       120         10          0          0          0          0   _printf_oct_int_ll.o
+         8          0          0          0          0          0   _printf_p.o
+        76          0          0          0          0          0   _printf_pad.o
+         0          0          0          0          0          0   _printf_percent.o
+         8          0          0          0          0          0   _printf_percent_end.o
+         8          0          0          0          0          0   _printf_s.o
+        82          0          0          0          0          0   _printf_str.o
+        44          0          0          0          0          0   _printf_truncate.o
+         8          0          0          0          0          0   _printf_u.o
+        54          0          0          0          0          0   _printf_wchar.o
+       188          6          8          0          0          0   _printf_wctomb.o
+         8          0          0          0          0          0   _printf_x.o
+        30          0          0          0          0          0   _rserrno.o
+        10          0          0          0          0          0   _sputc.o
+        36          4          0          0          0          0   _vsprintf.o
+        68          0          0          0          0          0   _wcrtomb.o
+        16          0          0          0          0          0   aeabi_memset.o
+       600          0          0          0          0          0   aeabi_sdivfast.o
+        12          0          0          0          0          0   exit.o
+        72          8        272          0          0          0   lc_ctype_c.o
+         6          0          0          0          0          0   libinit.o
+        20          0          0          0          0          0   libinit2.o
+         2          0          0          0          0          0   libshutdown.o
+         2          0          0          0          0          0   libshutdown2.o
+        12          4          0          0         96          0   libspace.o
+        24          0          0          0          0          0   llmul.o
+       152          0          0          0          0          0   lludiv10.o
+       752         64          0          0          0          0   lludiv5.o
+        20          4          0          0          0          0   rt_ctype_table.o
+        16          4          0          0          0          0   rt_errno_addr_intlibspace.o
+        16          4          0          0          0          0   rt_fp_status_addr_intlibspace.o
+        16          4          0          0          0          0   rt_locale_intlibspace.o
+        64          0          0          0          0          0   rt_memclr.o
+        84          0          0          0          0          0   rt_memclr_w.o
+       212          0          0          0          0          0   rt_memcpy.o
+       100          0          0          0          0          0   rt_memcpy_w.o
+         0          0          0          0          0          0   rtentry.o
+        44          4          0          0          0          0   rtentry2.o
+         8          0          0          0          0          0   rtentry4.o
+         4          0          0          0          0          0   rtexit.o
+        12          0          0          0          0          0   rtexit2.o
+        44          0          0          0          0          0   rtudiv10.o
+       188          4          0          0          0          0   strcmpfast.o
+        96          0          0          0          0          0   sys_stackheap_outer.o
+        32          0          0          0          0          0   uread4.o
+         4          0          0          0          0          0   use_no_semi.o
+        32          0          0          0          0          0   uwrite4.o
+      1008         14        308          0          0          0   comdetectioninfo.o
+      1504         50          0          0          0          0   comfigissquare.o
+        70          0          0          0          0          0   comhandle.o
+        36          0          0          0          0          0   comimage.o
+       524          8          0          0         32          0   commalloc.o
+       272         20        257          0          0          0   commath.o
+       624         22        256          0          0          0   sdkcom.o
+        96         10          0          0          0          0   dtaulait.o
+       980         42          0          0          0          0   dtaulaite.o
+      1032          4          0          0          0          0   dtconfiguretodetect.o
+      4250         38        512          0          0          0   dtdetectimage.o
+      2186         40         72          0          0          0   dtdetector.o
+      1338         24          0          0          0          0   dtfeature.o
+      4602         90     144704          0          0          0   dtgateau.o
+       896         30         72          0          0          0   dtlatte.o
+        78          0        182          0          0          0   dtmilkmath.o
+      1268         12          0          0          0          0   dtmint.o
+       372          8         91          0          0          0   dtmint_math.o
+      2596         88          0          0          0          0   dtmintprocess.o
+         0          0       2552          0          0          0   dtmintsenario.o
+      1764         28         24          0          0          0   dtpostproc.o
+      2012         18          0          0          0          0   dttarte.o
+      1048         10          0          0          0          0   dttarte1dtracking.o
+       416          4          0          0          0          0   dttartepostproc.o
+       976          8          0          0          0          0   dttrackingobject.o
+       664         14         16          0          0          0   dtxyconvtbl.o
+      4904        148          0          0          0          0   sdkdt.o
+       872         16          0          0          0          0   daddsub_clz.o
+        16          4          0          0          0          0   dcheck1.o
+        28          0          0          0          0          0   dcmpi.o
+       720        140          0          0          0          0   ddiv.o
+       112          4          0          0          0          0   dfix.o
+       112          4          0          0          0          0   dfixu.o
+        96          0          0          0          0          0   dflt_clz.o
+       148          4          0          0          0          0   dleqf.o
+       376         16          0          0          0          0   dmul.o
+       184          0          0          0          0          0   dnaninf.o
+        16          0          0          0          0          0   dretinf.o
+       140          0          0          0          0          0   drleqf.o
+       512         56          0          0          0          0   dsqrt_noumaal.o
+        20          0          0          0          0          0   fpinit.o
+       116          0          0          0          0          0   retnan.o
+       108          0          0          0          0          0   scalbn.o
+        60          0          0          0          0          0   trapv.o
+         0          0          0          0          0          0   usenofp.o
+       812         52        152          0          0          0   atan.o
+       508         36          0          0          0          0   atan2.o
+       300         20          0          0          0          0   ceil.o
+        20          4          0          0          0          0   dunder.o
+        48          4          0          0          0          0   fpclassify.o
+       240          0          0          0          0          0   poly.o
+         0          0          8          0          0          0   qnan.o
+        96          4          0          0          0          0   sqrt.o
+      2268         56        256         76       4196          0   os_core.o
+       428         36          0          0          0          0   os_cpu_a.o
+       180         12          0          0          0          0   os_cpu_c.o
+      2204         24          0          0          0          0   os_flag.o
+       664          8          0          0          0          0   os_mem.o
+      1008         16          0          0          0          0   os_sem.o
+      2332         40          0          0          0          0   os_task.o
+       292         16          0          0          0          0   os_time.o
+      1408         64          0          0          0          0   os_tmr.o
+
+    ----------------------------------------------------------------------
+     98608       3240     150312        536      11032          0   Library Totals
+        20          0         11          2        162          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Name
+
+      7644        280         32         28        468       2396   GraceV1_AE.lib
+      5988        256         48        172       1732       2244   GraceV1_AF.lib
+      3832        134        112         24        328       1132   GraceV1_AWB.lib
+     24328       1026        310        234       4018       9712   GraceV1_ISP.lib
+      4836        178        337          0         96       3268   c_5.l
+      4038        114        821          0         32       1624   eOkaCo48.lib
+     31478        616     148225          0          0       6472   eOkaoDt50_HP45.lib
+      3636        244          0          0          0       1852   fz_5s.l
+      2024        120        160          0          0        668   m_5s.l
+     10784        272        256         76       4196       3212   ucosii_mdk.lib
+
+    ----------------------------------------------------------------------
+     98608       3240     150312        536      11032          0   Library Totals
+
+    ----------------------------------------------------------------------
+
+==============================================================================
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
+
+    217316      19962     164428      14096     209220    1039760   Grand Totals
+    217316      19962     164428      14096     209220    1039760   ELF Image Totals
+    217316      19962     164428      14096          0          0   ROM Totals
+
+==============================================================================
+
+    Total RO  Size (Code + RO Data)               381744 ( 372.80kB)
+    Total RW  Size (RW Data + ZI Data)            223316 ( 218.08kB)
+    Total ROM Size (Code + RO Data + RW Data)     395840 ( 386.56kB)
+
+==============================================================================
+

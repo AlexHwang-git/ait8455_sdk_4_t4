@@ -1,0 +1,86 @@
+
+; (DUMMY)
+TCM_END 0x00081000   0x0
+{
+    TCM_END +0
+    {
+        .ANY                (dummy)
+    }
+}
+
+
+; 16MB, using only 1MB
+DRAM    0x01000000  0x00100000
+{
+
+
+    ALL_DRAM  0x01000000  0x00180000
+    {
+    	cstartup*.o         (reset, +FIRST)
+        .ANY                (+RO,+RW,+ZI)
+    }
+    
+    VECTOR_ITCM 0x0000      0x100
+    {
+        cstartup*.o         (vector, +FIRST)
+    }
+    ; Bootcode / FW exchange information
+    BOOTEX_INFO   0x0100      0x20
+    {
+       .ANY             (dummy)
+    }
+    
+    ;In VSN_V3 case, H264 use 384 KB frame buffer size
+    ALL_ITCM 	0x0400	 0x00000C00
+    {
+    	mmpf_system.o           (EnterSelfSleepMode)
+        mmpf_dram.o             (EnterSelfSleepMode)
+    	mmpf_system.o           (AbortItcm)
+        ; For isp copy
+        rt_memcpy.o             (+RO,+RW,+ZI) 
+        rt_memcpy_w.o           (+RO,+RW,+ZI)
+        
+        ;mmpf_usbint.o           (itcm)
+    }
+    
+    ALL_DTCM  0x00080000  0x0001000
+    {
+        bsp.o               (+RO-DATA,+RW,+ZI)
+    }
+    
+    ; MMU table from 0x100000~0x104000
+    SRAM_MMU  0x100000  0x4000
+    {
+        .ANY            (dummy)
+    }
+    ; JPEG line buffer 60KB for 1920x1080p
+    SRAM_JPG  0x104000  0x7800 ;single line buffer mode ; 0xF000 dual line buffer mode  
+    {
+        .ANY            (dummy)
+    }
+    
+    ; Reserved for Code ( 32KB)
+    ;SRAM_CODE 0x114000 0x8000
+    ;{
+    ;    .ANY            (dummy)
+    ;}
+    
+    SRAM_IQ_DMA 0x10B800 0x4000
+    {
+        .ANY            (dummy)
+    }
+    
+    ;SRAM_H264 0x126000 0x60000
+    ;SRAM_H264 0x104000 0x82000 ; For H264 rt-mode
+    SRAM_H264 0x10F800 0x76800 ; For H264 rt-mode
+    {
+        .ANY            (dummy)
+    }
+    
+    SRAM_END 0x186000   0x0
+    {
+        .ANY            (dummy)
+    }
+    
+    
+}

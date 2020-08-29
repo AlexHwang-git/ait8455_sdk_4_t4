@@ -1,0 +1,53 @@
+/*
+ * FDFR_task.c32
+ */
+#if 0
+#include "mmp_lib.h"
+#include "os_wrap.h"
+#include "mmpf_task_cfg.h"
+#include "fdfrcfg.h"
+#include "mmpf_hif.h"
+
+extern MMPF_OS_FLAGID   SYS_Flag_Hif;
+extern void TriggerFDFR_IBC(void);
+
+char *GetReadyYframe(void);
+
+OS_STK FDFR_Task_Stk[TASK_FDFR_STK_SIZE];
+
+void MMPF_FDFR_TaskHandler(void *p_arg)
+{
+	MMPF_OS_FLAGS flags;
+
+	/*
+	 * LoadCodeFromNAND()
+	 * Reload code from NAND,
+	 * If _OKAO_ is enable the function will return 1, nothing to do!
+	 */
+	LoadCodeFromNAND();
+	initFaceProcessor(FACE_DEFAULT);
+	/*
+	 * Wait mesage event
+	 */
+	while (1) {
+		MMPF_OS_WaitFlags(SYS_Flag_Hif,
+						  SYS_FLAG_FACEPROC | SYS_FLAG_FLASH_CODE,
+						  (MMPF_OS_FLAG_WAIT_SET_ANY | MMPF_OS_FLAG_CONSUME),
+						  0, &flags);
+		if(flags & SYS_FLAG_FACEPROC) {
+			char			*ptr;
+			
+			TriggerFDFR_IBC();
+			ptr = GetReadyYframe();
+			myFaceProcess(ptr);
+			continue;
+		}
+		if (flags & SYS_FLAG_FLASH_CODE) {
+        	extern void FlashCodeToNAND(void);
+        	
+        	FlashCodeToNAND();
+			continue;
+		}
+	}
+}
+#endif

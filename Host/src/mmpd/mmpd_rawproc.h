@@ -1,0 +1,29 @@
+#ifndef _MMPD_RAWPROC_H_
+#define _MMPD_RAWPROC_H_
+
+#include "mmp_err.h"
+
+#define RAWSTORE_BUFFER_MAX_NUM 3
+
+typedef struct _MMPD_RAWPROC_STOREBUF {
+    MMP_UBYTE ulRawBufCnt;
+    MMP_UBYTE ulLumaBufCnt;
+    MMP_ULONG ulRawBufAddr[RAWSTORE_BUFFER_MAX_NUM];
+    MMP_ULONG ulLumaBufAddr[RAWSTORE_BUFFER_MAX_NUM];
+} MMPD_RAWPROC_STOREBUF;
+
+
+MMP_ERR MMPD_RAWPROC_EnablePath(MMP_BOOL bEnable, MMP_BOOL bLumaEn, MMP_BOOL bRaw2ISP);   //Ted ZSL
+MMP_ERR MMPD_RAWPROC_SetStoreAddr(MMP_ULONG ulAddr1, MMP_ULONG ulAddr2,MMP_ULONG ulBufNum);
+MMP_ERR MMPD_RAWPROC_SetStoreBuf(MMPD_RAWPROC_STOREBUF *rawbuf);
+MMP_ERR MMPD_RAWPROC_EnablePreview(MMP_BOOL bEnable);
+MMP_ERR MMPD_RAWPROC_EnableStoreDownsample(MMP_BOOL bEnable,MMP_USHORT *usRawStoreWidth,MMP_USHORT *usRawStoreHeight);
+MMP_ERR MMPD_RAWPROC_EnableDVSPreview(MMP_BOOL bEnable);
+MMP_ERR MMPD_RAWPROC_StartDVS(MMP_BOOL bStart);
+MMP_ERR MMPD_RAWPROC_GetStoreRange(MMP_USHORT *usWidth, MMP_USHORT *usHeight);
+MMP_ERR MMPD_RAWPROC_SetStoreRange(MMP_USHORT usWidth, MMP_USHORT usHeight);
+MMP_ERR MMPD_RAWPROC_SetFetchRange(MMP_USHORT usWidth, MMP_USHORT usHeight);
+MMP_ERR MMPD_RAWPROC_SetStoreDownsample(MMP_UBYTE ubDn, MMP_UBYTE ubLumaDn);
+MMP_ERR MMPD_RAWPROC_ResetPreviewAttribute(void);
+
+#endif
