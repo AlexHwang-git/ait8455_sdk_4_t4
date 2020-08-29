@@ -54,9 +54,22 @@ void ISP_HDM_IF_CALI_GetData(void)
 
 	eeprom_buff = (ISP_UINT8 *)CALI_DATA_BUF_STA;
 		
-#if 1
+#if 0		//1
 	//for(print_cnt = (1592 + 2816); print_cnt <100 + (1592 + 2816);print_cnt++)
 	for(print_cnt = 28; print_cnt <100 + 28;print_cnt++)
+	{
+		dbg_printf(3, " I2C 0x%x  0x%x\r\n", print_cnt,  *(eeprom_buff+print_cnt));		
+	}
+#else
+	for(print_cnt = ; print_cnt <= 0x1F;print_cnt++)
+	{
+		dbg_printf(3, " I2C 0x%x  0x%x\r\n", print_cnt,  *(eeprom_buff+print_cnt));		
+	}
+	for(print_cnt = 0xB00; print_cnt <= 0xB1F;print_cnt++)
+	{
+		dbg_printf(3, " I2C 0x%x  0x%x\r\n", print_cnt,  *(eeprom_buff+print_cnt));		
+	}
+	for(print_cnt = 0x1520; print_cnt <= 0x1528;print_cnt++)
 	{
 		dbg_printf(3, " I2C 0x%x  0x%x\r\n", print_cnt,  *(eeprom_buff+print_cnt));		
 	}
